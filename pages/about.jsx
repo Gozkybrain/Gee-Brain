@@ -67,7 +67,7 @@ export default function AboutMe() {
             <div className={styles.skill}>
               <span className={styles.skillName}>JavaScript</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '90%' }}></div>
+                <div className={styles.progress} style={{ width: '89%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
@@ -79,7 +79,7 @@ export default function AboutMe() {
             <div className={styles.skill}>
               <span className={styles.skillName}>CSS & Bootstrap</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '80%' }}></div>
+                <div className={styles.progress} style={{ width: '92%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
@@ -91,19 +91,19 @@ export default function AboutMe() {
             <div className={styles.skill}>
               <span className={styles.skillName}>Motoko, Solana Rust & Web3JS</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '70%' }}></div>
+                <div className={styles.progress} style={{ width: '60%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>Wordpress</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '65%' }}></div>
+                <div className={styles.progress} style={{ width: '95%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
               <span className={styles.skillName}>Firebase, EmailJS, & MailJet</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '60%' }}></div>
+                <div className={styles.progress} style={{ width: '85%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
