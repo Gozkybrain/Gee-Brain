@@ -1,0 +1,66 @@
+/* styles/ContactPage.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.container > div {
+  position: relative;
+  padding-left: 2rem; /* Space for the vertical line */
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+}
+
+.item {
+  position: relative;
+  padding-left: 2rem; /* Space for the dot and line */
+  margin-bottom: 2rem; /* Space between items */
+}
+
+.item::before {
+  content: '';
+  position: absolute;
+  left: -1rem; /* Position dot to the left of the item */
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  top: 0;
+}
+
+.item::after {
+  content: '';
+  position: absolute;
+  left: -0.5rem; /* Adjust as needed */
+  width: 2px;
+  background: var(--accent-color);
+  top: 1rem; /* Starts at the top of the dot */
+  bottom: -1rem; /* Extend the line to the next item */
+}
+
+.item:first-child::after {
+  top: 0; /* No top line for the first item */
+}
+
+.item:last-child::after {
+  bottom: auto;
+  height: 1rem; /* Adjust if you want the last line to be shorter */
+}
+
+/* Optional: Adjust spacing for smaller screens */
+@media screen and (max-width: 1200px) {
+  .container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-left: 1rem; /* Adjust for smaller screens */
+  }
+}

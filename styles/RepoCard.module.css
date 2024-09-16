@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--article-bg);
+  border-radius: 5px;
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+  font-weight: 300;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+  margin-bottom: 1.25rem;
+}
+
+.title {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats div {
+  display: flex;
+  align-items: center;
+  margin-right: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.stats > div:nth-child(2) {
+  margin-right: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.icon {
+  color: var(--accent-color);
+  margin-right: 0.3rem;
+}

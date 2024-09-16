@@ -1,0 +1,135 @@
+/* styles/About.module.css */
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0fr 2fr 2fr;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dedede;
+    box-shadow: 1px 3px 13px #1F2428;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+
+
+
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.textHead {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.myImage {
+    border-radius: 50%;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.strong {
+    font-weight: 600;
+}
+
+.paragraph {
+    margin-top: 20px;
+    font-size: 18px;
+    /* font-weight: 400px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skillsSection {
+    margin-top: 40px;
+}
+
+.skillsSection h3 {
+    margin-bottom: 20px;
+}
+
+.skillsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two columns for skills */
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+}
+
+.skillName {
+    display: block;
+    /* font-weight: bold; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 5px;
+}
+
+.progressBar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    width: 100%;
+}
+
+.progress {
+    background-color: #0088cc;
+    height: 100%;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+/* Media Query for Devices with Max Width of 700px */
+@media (max-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr;
+        /* Single column layout */
+        gap: 20px;
+    }
+
+    .skillsGrid {
+        grid-template-columns: 1fr;
+        /* Single column layout for skills on small screens */
+    }
+}

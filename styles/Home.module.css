@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+
+.cover-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* width: 100vw;  */
+    text-align: center;
+    position: relative;
+}
+
+.offset {
+    transform: translateY(-20%);
+    /* Adjust this value to move content up or down */
+}
+
+.offset-bg {
+    transform: translateY(-40%);
+}
+
+.skillsContainer {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    color: white;
+}
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skillItem p {
+    margin-top: 0.5rem;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.reactIcon {
+    color: #0088cc;
+}
+
+.react-native-icon {
+    color: #0088cc;
+}
+
+.css-icon {
+    color: #264de4;
+}
+
+.bootstrap-icon {
+    color: #563d7c;
+}
+
+.wordpressIcon {
+    color: #0088aa;
+}
+
+.jsIcon {
+    color: #f7e018;
+}
+
+.rustIcon {
+    color: #dea584;
+}
+
+.mongodb-icon {
+    color: #47a248;
+}
+
+.nodeIcon {
+    color: #8cc84b;
+}
+
+.firebase-icon {
+    color: #ffca28;
+}
+
+
+.home-background-text {
+    position: absolute;
+    left: 10px;
+    z-index: 10;
+    font-size: 12rem;
+    font-weight: 800;
+    line-height: 1;
+    color: var(--bg-text);
+    display: none;
+}
+
+.developer {
+    color: #dedede;
+    padding: 10px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 4px 4px 6px #000;
+}
+
+.react {
+    color: #0088cc;
+    -webkit-text-stroke: 1px #2d2d2d;
+    text-shadow: 2px 2px 4px #000;
+}
+
+
+.icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.workBtn {
+    background-color: #3b5998;
+}
+
+.contactBtn {
+    border: 2px solid #3b5998;
+}
+
+.home-background-text h1 {
+    margin: 0;
+}
+
+.home-content {
+    position: relative;
+    z-index: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 1rem;
+}
+
+.home-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #eee;
+}
+
+.home-heading-md {
+    font-size: 4rem;
+}
+
+.home-heading-xl {
+    font-size: 8rem;
+}
+
+.home-subheading {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #eee;
+}
+
+.home-subheading-md {
+    font-size: 1.875rem;
+}
+
+.home-button {
+    display: inline-block;
+    margin-top: 2.5rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.home-button-secondary {
+    margin-left: 0.75rem;
+    padding: 0.5rem 1.25rem;
+    border: 2px solid var(--accent-color);
+    color: var(--text-color);
+    background-color: transparent;
+}
+
+.home-button:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.home-button-secondary:hover {
+    border-color: var(--accent-color-dark);
+}
+
+
+.relative {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forMobile {
+   padding: 30px 0;
+}
+
+/* Hides the element on screen widths less than 768px */
+@media screen and (max-width: 900px) {
+    .myImg {
+      display: none !important;
+    }
+
+    .container {
+        margin-top: 1000px;
+      }
+  }
+  
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .relative {
+        flex-direction: column;
+    }
+
+    .imageWrapper {
+        order: -1;
+    }
+
+    .cover-home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+        position: relative;
+    }
+
+    .icon {
+        font-size: 2rem;
+    }
+
+    .skillText {
+        display: none;
+    }
+
+    .myImg {
+        display: none !important;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .work-btn,
+    .contact-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .react {
+        font-size: 17px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .home-background-text {
+        display: block;
+    }
+
+    .forMobile {
+        display: none;
+    }
+
+    .home-heading {
+        font-size: 4rem;
+    }
+
+    .home-subheading {
+        font-size: 1.875rem;
+    }
+
+    .home-button {
+        padding: 0.75rem 2rem;
+        font-size: 1.125rem;
+    }
+
+    .home-button-secondary {
+        padding: 0.75rem 1.75rem;
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .home-heading {
+        font-size: 8rem;
+    }
+
+    .home-subheading {
+        font-size: 2.25rem;
+    }
+
+    .home-button {
+        padding: 0.75rem 2.25rem;
+        font-size: 1.25rem;
+    }
+
+    .home-button-secondary {
+        padding: 0.75rem 2rem;
+        font-size: 1.25rem;
+    }
+}
