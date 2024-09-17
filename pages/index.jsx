@@ -62,8 +62,8 @@ export default function HomePage() {
               <Link href="/projects">
               <button className={`${styles.button} ${styling.workBtn}`}>View Work</button>
               </Link>
-              <Link href="/contact">
-                <button className={`${styles.outlined} ${styling.contactBtn}`}>Contact Me</button>
+              <Link href="/resume">
+                <button className={`${styles.outlined} ${styling.contactBtn}`}>My Resume</button>
               </Link>
            </div>
           </div>

@@ -71,7 +71,7 @@ export default function AboutMe() {
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>ReactJS & React Native</span>
+              <span className={styles.skillName}>ReactJS, NextJS & React Native</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '85%' }}></div>
               </div>
