@@ -1,8 +1,4 @@
 
-
-## Todo
-* Update feedme api readme with frontend view
-* update escrow app readme with future features
 ## About Me
 
 A Normal Life is Boring.
