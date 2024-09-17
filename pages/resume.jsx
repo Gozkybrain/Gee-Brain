@@ -8,21 +8,15 @@ const ContactPage = () => {
         <h3 className={styles.heading}>Education History</h3>
 
         <div className={styles.item}>
-          <h4 className={styles.resumeHead}>BSc. Industrial Microbiology</h4>
-          <div>Imo State University, Owerri.</div>
-          <div><strong>Year:</strong> 2016 - 2020</div>
+          <h4 className={styles.resumeHead}>Developer Roadmap Experiment Lab</h4>
+          <div>Bukas Global Investments</div>
+          <div>2022 - Present</div>
         </div>
 
         <div className={styles.item}>
-          <h4 className={styles.resumeHead}>HTML, CSS, & JAVASCRIPT</h4>
-          <div>Coursera Online INC.</div>
-          <div>2021</div>
-        </div>
-        
-        <div className={styles.item}>
-          <h4 className={styles.resumeHead}>FRONTEND DEVELOPMENT WITH REACTJS, API INTEGRATION AND NODEJS</h4>
-          <div>Soutech Ventures, Owerri, Imo State, Nigeria.</div>
-          <div>2023</div>
+          <h4 className={styles.resumeHead}>FULL-STACK WITH HTML, CSS, JAVASCRIPT, NODE, REACT, POSTGRESQL, WEB3 AND DAPPS</h4>
+          <div>Udemy INC. and Dr Angela Yu.</div>
+          <div>2022 - 2024</div>
         </div>
 
         <div className={styles.item}>
@@ -32,10 +26,23 @@ const ContactPage = () => {
         </div>
 
         <div className={styles.item}>
-          <h4 className={styles.resumeHead}>FULL-STACK WITH HTML, CSS, JAVASCRIPT, NODE, REACT, POSTGRESQL, WEB3 AND DAPPS</h4>
-          <div>Udemy INC. and Dr Angela Yu.</div>
-          <div>2022 - 2024</div>
+          <h4 className={styles.resumeHead}>FRONTEND DEVELOPMENT WITH REACTJS, API INTEGRATION AND NODEJS</h4>
+          <div>Soutech Ventures, Owerri, Imo State, Nigeria.</div>
+          <div>2023</div>
         </div>
+
+        <div className={styles.item}>
+          <h4 className={styles.resumeHead}>HTML, CSS, & JAVASCRIPT</h4>
+          <div>Coursera Online INC.</div>
+          <div>2021</div>
+        </div>
+
+        <div className={styles.item}>
+          <h4 className={styles.resumeHead}>BSc. Industrial Microbiology</h4>
+          <div>Imo State University, Owerri.</div>
+          <div><strong>Year:</strong> 2016 - 2020</div>
+        </div>
+
       </div>
 
       <div className={styles['work-section']}>
@@ -46,7 +53,7 @@ const ContactPage = () => {
           <div>Frontend Developer with React</div>
           <div>2024 - Present</div>
         </div>
-       
+
         <div className={styles.item}>
           <h4 className={styles.resumeHead}>SKI MUSIC</h4>
           <div>Remote: Lagos State, Nigeria</div>

@@ -10,6 +10,7 @@ import WhatsAppIcon from './icons/WhatsappIcon';
 import FacebookIcon from './icons/FacebookIcon'; // Corrected import
 import TikTokIcon from './icons/TiktokIcon';
 import styles from '../styles/Sidebar.module.css';
+import LinkedInIcon from './icons/LinkedInIcon';
 
 const sidebarTopItems = [
   {
@@ -31,6 +32,10 @@ const sidebarTopItems = [
   {
     Icon: FacebookIcon,
     path: 'https://facebook.com/izuka.emmanuel',
+  },
+  {
+    Icon: LinkedInIcon,
+    path: 'https://www.linkedin.com/in/gozkybrain-izuka-75612024a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
   },
   {
     Icon: TikTokIcon,

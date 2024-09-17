@@ -1,6 +1,32 @@
 .container {
   margin: 1.5rem 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
   gap: 1.5rem;
+}
+
+.heading {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* On mobile screens (below 600px), show only 1 card per row */
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr; /* 1 full-width card per row */
+  }
+}
+
+/* On tablets and landscape screens (601px to 900px), show 2 cards per row */
+@media (min-width: 601px) and (max-width: 900px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr); /* 2 equal-width columns */
+  }
+}
+
+/* On larger screens (above 900px), show 3 cards per row */
+@media (min-width: 901px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr); /* 3 equal-width columns */
+  }
 }

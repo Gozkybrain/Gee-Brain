@@ -1,22 +1,36 @@
+/* Container for the project cards */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 2rem; /* Adjust gap between the cards */
+  margin-top: 2rem;
+}
+
+/* Card styles */
 .card {
   background: var(--article-bg);
   display: flex;
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
+  padding: 1rem;
 }
 
 .card:hover {
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+
 .content {
   padding: 1rem;
   border-radius: 0 0 20px 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .content p {
-  font-size: 0.8rem;
+  font-size: 17px;
+  line-height: 1.5;
   margin-top: 0.5rem;
 }
 
@@ -41,15 +55,15 @@
 
 .underline {
   padding: 0.2rem 0;
-  font-size: 0.9rem;
+  font-size: 22px;
   letter-spacing: 0;
   cursor: pointer;
   color: white;
   text-decoration: none;
   background-image: linear-gradient(
     120deg,
-    var(--accent-color) 100%,
-    var(--accent-color) 100%
+    #0088cc 100%,
+    #0088aa 100%
   );
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
@@ -59,4 +73,13 @@
 
 .underline:hover {
   background-size: 100% 88%;
+}
+
+/* Responsive: Adjust the grid for smaller screens */
+
+
+@media (max-width: 600px) {
+  .card-container {
+    grid-template-columns: 1fr; /* 1 card per row on small screens */
+  }
 }
