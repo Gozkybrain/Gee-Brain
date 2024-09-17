@@ -5,5 +5,6 @@ module.exports = {
       'avatars.githubusercontent.com',
       'imgur.com',
     ],
+    unoptimized: true, // Disable image optimization
   },
 };
