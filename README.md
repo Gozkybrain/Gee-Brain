@@ -5,6 +5,14 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
 
 ![vscode-portfolio banner](https://imgur.com/JXJ9mpO.gif)
 
+## Todo
+* FIX SIDEBAR
+* Fix Resume arrangement
+* Add Experiment Lab to Resume
+* Update feedme api readme with frontend view
+* update escrow app readme with future features
+
+
 ## Features Roadmap
 
 - [ ] Themes and customizations
