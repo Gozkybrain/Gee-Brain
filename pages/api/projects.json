@@ -166,8 +166,8 @@
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "The project consists of a Telegram Bot Authentication System, a Prescription API Service, and a Frontend Application built using React. The project allows users to interact with the system via Telegram for authentication and provides prescription services through a web-based application.",
     "tags": ["react", "firebase", "css", "express", "telegram", "api"],
-    "source_code": "https://github.com/Gozkybrain/brokerAdminDash",
-    "demo": "https://broker-admin.netlify.app/"
+    "source_code": "https://github.com/Gozkybrain/Pharma-Check",
+    "demo": "https://t.me/pharmacheckbot"
   }
 ]
 
