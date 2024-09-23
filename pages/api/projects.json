@@ -158,7 +158,7 @@
     "description": "The Broker Admin Panel is designed to manage users, transactions, wallet addresses, and user profile data. The app uses Firebase as its backend for real-time data storage and authentication. It is structured to ensure easy navigation and control over user data and administrative tasks, such as handling transaction records and updating wallet information.",
     "tags": ["react", "firebase", "css"],
     "source_code": "https://github.com/Gozkybrain/brokerAdminDash",
-    "demo": "https://broker-admin.netlify.app/"
+    "demo": "https://broker-admin.netlify.app"
   },
   {
     "id": 19,
