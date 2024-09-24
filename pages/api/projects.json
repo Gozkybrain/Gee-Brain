@@ -121,8 +121,8 @@
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "This project is a web-based project for a fintech bank, its will include different types of account eg; savings, investments, and loans. The whole process involved in a bank will be carried out here including transaction of funds, etc.",
     "tags": ["react", "firebase", "css", "bootstrap"],
-    "source_code": "https://github.com/Gozkybrain/ski-music-app",
-    "demo": "https://expo.dev/preview/update?message=All%20Forms%20Corrected&updateRuntimeVersion=1.0.0&createdAt=2024-07-06T16%3A18%3A43.560Z&slug=exp&projectId=116e7f3c-5f5d-4b2b-85f5-1478f282c8e1&group=efca7786-c6c6-4372-af19-1db0dbbb3c6d"
+    "source_code": "https://github.com/Gozkybrain/",
+    "demo": "https://online-banking.netlify.app/my-card"
   },
   {
     "id": 15,
