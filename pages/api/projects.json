@@ -175,8 +175,8 @@
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "This is an attempt to build an investment broker that automatically adds percentage in form of profit to investors account. The Mobile App uses certain logic to handle complex ideas, but overall maintaining a simple codebase.",
     "tags": ["react-native", "firebase", "css", "expo"],
-    "source_code": "https://github.com/Gozkybrain/Pharma-Check",
-    "demo": "https://t.me/pharmacheckbot"
+    "source_code": "https://broker-admin.netlify.app/download",
+    "demo": "https://broker-admin.netlify.app/download"
   }
 ]
 
