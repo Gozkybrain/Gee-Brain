@@ -183,6 +183,7 @@
     "name": "QR Scan to Clock In System",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "This is a simple attempt to create a Clock In system for employees using QR Scan. The database is handled by firebase, the whole process is quite simple and straightforward.",
+    "tags": ["react", "firebase", "css"],
     "source_code": "https://github.com/Gozkybrain/qr-clock-in",
     "demo": "https://qr-clock-in.netlify.app/"
   }

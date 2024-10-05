@@ -51,7 +51,7 @@ const ContactPage = () => {
           <h4 className={styles.resumeHead}>Virtuous Tech Enterprise</h4>
           <div>Remote: Edo State, Nigeria</div>
           <div>Frontend Developer with React</div>
-          <div>2024 - Presen t</div>
+          <div>2024 - Present </div>
         </div>
 
         <div className={styles.item}>
