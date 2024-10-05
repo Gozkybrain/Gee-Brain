@@ -177,6 +177,14 @@
     "tags": ["react-native", "firebase", "css", "expo"],
     "source_code": "https://broker-admin.netlify.app/download",
     "demo": "https://broker-admin.netlify.app/download"
+  },
+  {
+    "id": 21,
+    "name": "QR Scan to Clock In System",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "This is a simple attempt to create a Clock In system for employees using QR Scan. The database is handled by firebase, the whole process is quite simple and straightforward.",
+    "source_code": "https://github.com/Gozkybrain/qr-clock-in",
+    "demo": "https://qr-clock-in.netlify.app/"
   }
 ]
 
