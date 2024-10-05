@@ -1,3 +1,4 @@
+import Link from 'next/link'; // Import Link from next/link
 import styles from '../styles/ContactCode.module.css';
 
 const contactItems = [
@@ -12,18 +13,18 @@ const ContactCode = () => {
       {contactItems.slice(0, 8).map((item, index) => (
         <p className={styles.line} key={index}>
           &nbsp;&nbsp;&nbsp;{item.social}:{' '}
-          <a href={item.href} target="_blank" rel="noopener">
+          <Link href={item.href} target="_blank" rel="noopener">
             {item.link}
-          </a>
+          </Link>
           ;
         </p>
       ))}
       {contactItems.slice(8, contactItems.length).map((item, index) => (
         <p className={styles.line} key={index}>
           &nbsp;&nbsp;{item.social}:{' '}
-          <a href={item.href} target="_blank" rel="noopener">
+          <Link href={item.href} target="_blank" rel="noopener">
             {item.link}
-          </a>
+          </Link>
           ;
         </p>
       ))}

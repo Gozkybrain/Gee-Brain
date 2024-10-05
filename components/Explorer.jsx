@@ -32,6 +32,7 @@ const explorerItems = [
   },
 ];
 
+
 const Explorer = () => {
   const [portfolioOpen, setPortfolioOpen] = useState(true);
 
@@ -58,7 +59,7 @@ const Explorer = () => {
           style={portfolioOpen ? { display: 'block' } : { display: 'none' }}
         >
           {explorerItems.map((item) => (
-            <Link href={item.path} key={item.name}>
+            <Link href={item.path} key={item.name} className={styles.files}>
               <div className={styles.file}>
                 <Image
                   src={`/${item.icon}`}
@@ -75,5 +76,6 @@ const Explorer = () => {
     </div>
   );
 };
+
 
 export default Explorer;

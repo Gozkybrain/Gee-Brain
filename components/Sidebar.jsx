@@ -7,7 +7,7 @@ import MailIcon from './icons/MailIcon';
 import AccountIcon from './icons/AccountIcon';
 import SettingsIcon from './icons/SettingsIcon';
 import WhatsAppIcon from './icons/WhatsappIcon';
-import FacebookIcon from './icons/FacebookIcon'; // Corrected import
+import FacebookIcon from './icons/FacebookIcon';
 import TikTokIcon from './icons/TiktokIcon';
 import styles from '../styles/Sidebar.module.css';
 import LinkedInIcon from './icons/LinkedInIcon';
@@ -67,7 +67,7 @@ const Sidebar = () => {
         {sidebarTopItems.map(({ Icon, path }, index) => (
           <div key={index} className={styles.iconContainer}>
             <Link href={path} passHref>
-              <a
+              <div
                 className={
                   router.pathname === path ? styles.active : undefined
                 }
@@ -80,7 +80,7 @@ const Sidebar = () => {
                   }
                   className={styles.icon}
                 />
-              </a>
+              </div>
             </Link>
           </div>
         ))}
@@ -89,7 +89,7 @@ const Sidebar = () => {
         {sidebarBottomItems.map(({ Icon, path }, index) => (
           <div key={index} className={styles.iconContainer}>
             <Link href={path} passHref>
-              <a
+              <div
                 className={
                   router.pathname === path ? styles.active : undefined
                 }
@@ -102,7 +102,7 @@ const Sidebar = () => {
                   }
                   className={styles.icon}
                 />
-              </a>
+              </div>
             </Link>
           </div>
         ))}

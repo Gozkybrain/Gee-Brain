@@ -1,3 +1,4 @@
+import Link from 'next/link'; // Import Link for internal routing
 import ErrorIcon from './icons/ErrorIcon';
 import WarningIcon from './icons/WarningIcon';
 import BellIcon from './icons/BellIcon';
@@ -34,7 +35,9 @@ const Bottombar = () => {
           <p>Prettier</p>
         </div>
         <div className={styles.section}>
-          <BellIcon />
+          <Link href="/notifications"> {/* Example of internal link */}
+            <BellIcon />
+          </Link>
         </div>
       </div>
     </footer>

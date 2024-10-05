@@ -46,6 +46,11 @@
 
 .file p {
   margin-left: 5px;
+  color: aliceblue;
+}
+
+.files {
+  text-decoration: none;
 }
 
 .file:hover {

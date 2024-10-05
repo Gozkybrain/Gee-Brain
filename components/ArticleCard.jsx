@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import EyeIcon from '../components/icons/EyeIcon';
 import HeartIcon from '../components/icons/HeartIcon';
 import CommentIcon from '../components/icons/CommentIcon';
@@ -6,12 +7,7 @@ import styles from '../styles/ArticleCard.module.css';
 
 const ArticleCard = ({ article }) => {
   return (
-    <a
-      href={article.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={styles.container}
-    >
+    <Link href={article.url} target="_blank" rel="noopener noreferrer" className={styles.container}>
       <Image
         src={article.cover_image}
         alt={article.title}
@@ -33,7 +29,7 @@ const ArticleCard = ({ article }) => {
           <CommentIcon className={styles.icon} /> {article.comments_count}
         </div>
       </div>
-    </a>
+    </Link>
   );
 };
 
