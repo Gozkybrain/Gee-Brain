@@ -8,7 +8,7 @@ const ContactPage = () => {
         <h3 className={styles.heading}>Education History</h3>
 
         <div className={styles.item}>
-          <h4 className={styles.resumeHead}>Developer Roadmap Experiment Lab</h4>
+          <h4 className={styles.resumeHead}>iBukas Developer Experiment Lab</h4>
           <div>Bukas Global Investments</div>
           <div>2022 - Present</div>
         </div>
