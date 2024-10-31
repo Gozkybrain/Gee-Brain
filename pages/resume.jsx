@@ -58,7 +58,7 @@ const ContactPage = () => {
           <h4 className={styles.resumeHead}>SKI MUSIC</h4>
           <div>Remote: Lagos State, Nigeria</div>
           <div>Lead Mobile App Developer</div>
-          <div>2024 - Present</div>
+          <div>2024</div>
         </div>
 
         <div className={styles.item}>

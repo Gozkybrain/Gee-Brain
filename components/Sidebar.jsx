@@ -17,10 +17,10 @@ const sidebarTopItems = [
     Icon: FilesIcon,
     path: '/',
   },
-  {
-    Icon: WhatsAppIcon,
-    path: 'https://wa.me/2348166983737',
-  },
+  // {
+  //   Icon: WhatsAppIcon,
+  //   path: 'https://wa.me/2348166983737',
+  // },
   {
     Icon: TwitterIcon,
     path: 'https://x.com/gozkybrain4u',
