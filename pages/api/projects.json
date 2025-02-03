@@ -76,8 +76,8 @@
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "This project aims to develop a front-end interface for a payment gateway using card-based transactions. It provides users with a seamless experience for entering card details and seeing this information in real-time. The interface now includes additional features that enhance usability, like the email notification.",
     "tags": ["react", "css", "javascript", "email"],
-    "source_code": "https://github.com/Gozkybrain/payment-gateway",
-    "demo": "https://gozkybrain.github.io/payment-gateway/"
+    "source_code": "https://github.com/Gozkybrain/",
+    "demo": "https://github.com/Gozkybrain/"
   },
   {
     "id": 10,
