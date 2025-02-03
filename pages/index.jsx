@@ -28,31 +28,31 @@ export default function HomePage() {
             <div className={styling.skillsContainer}>
               {/* Skill item for React */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faReact} size="3x" className={`${styling.icon} ${styling.reactIcon}`} />
+                <FontAwesomeIcon icon={faReact} className={`${styling.icon} ${styling.reactIcon}`} />
                 <div className={styling.skillText}>React</div>
               </div>
 
               {/* Skill item for WordPress */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faWordpress} size="3x" className={`${styling.icon} ${styling.wordpressIcon}`} />
+                <FontAwesomeIcon icon={faWordpress} className={`${styling.icon} ${styling.wordpressIcon}`} />
                 <div className={styling.skillText}>WordPress</div>
               </div>
 
               {/* Skill item for JavaScript */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faJs} size="3x" className={`${styling.icon} ${styling.jsIcon}`} />
+                <FontAwesomeIcon icon={faJs} className={`${styling.icon} ${styling.jsIcon}`} />
                 <div className={styling.skillText}>JavaScript</div>
               </div>
 
               {/* Skill item for Solana Rust */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faRust} size="3x" className={`${styling.icon} ${styling.rustIcon}`} />
-                <div className={styling.skillText}>Solana Rust</div>
+                <FontAwesomeIcon icon={faRust} className={`${styling.icon} ${styling.rustIcon}`} />
+                <div className={styling.skillText}>Rust</div>
               </div>
 
               {/* Skill item for Express.js */}
               <div className={styling.skillItem}>
-                <FontAwesomeIcon icon={faNode} size="3x" className={`${styling.icon} ${styling.nodeIcon}`} />
+                <FontAwesomeIcon icon={faNode} className={`${styling.icon} ${styling.nodeIcon}`} />
                 <div className={styling.skillText}>Express.js</div>
               </div>
             </div>

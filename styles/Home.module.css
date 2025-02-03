@@ -21,31 +21,44 @@
 }
 
 .skillsContainer {
-    margin-top: 3rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 1.5rem;
-    color: white;
-}
-
-.skillItem {
+    justify-content: space-between; /* Ensures equal spacing */
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    max-width: 500px; /* Limits width */
+    margin: auto; /* Centers container */
+  }
+  
+  .skillItem {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-}
-
-.skillItem p {
-    margin-top: 0.5rem;
-    font-size: 12px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+    width: 130px; /* Same width for all */
+    height: 130px; /* Same height for all */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .skillItem:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    font-size: 50px; /* Uniform icon size */
+    color: #333;
+  }
+  
+  .skillText {
+    margin-top: 8px;
+    font-size: 16px;
     font-weight: bold;
-}
-
-.icon {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-}
+    text-align: center;
+  }
+  
 
 .reactIcon {
     color: #0088cc;
