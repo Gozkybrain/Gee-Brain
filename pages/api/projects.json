@@ -121,8 +121,8 @@
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "This project is a web-based project for a fintech bank, its will include different types of account eg; savings, investments, and loans. The whole process involved in a bank will be carried out here including transaction of funds, etc.",
     "tags": ["react", "firebase", "css", "bootstrap"],
-    "source_code": "https://github.com/Gozkybrain/",
-    "demo": "https://online-banking.netlify.app/my-card"
+    "source_code": "https://github.com/Gozkybrain/myBank-FinTech",
+    "demo": "https://github.com/Gozkybrain/myBank-FinTech"
   },
   {
     "id": 15,
