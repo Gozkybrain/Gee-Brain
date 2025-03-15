@@ -6,14 +6,12 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* width: 100vw;  */
     text-align: center;
     position: relative;
 }
 
 .offset {
     transform: translateY(-20%);
-    /* Adjust this value to move content up or down */
 }
 
 .offset-bg {
@@ -22,12 +20,12 @@
 
 .skillsContainer {
     display: flex;
-    justify-content: space-between; /* Ensures equal spacing */
+    justify-content: space-between; 
     align-items: center;
     gap: 10px;
     padding: 10px;
-    max-width: 500px; /* Limits width */
-    margin: auto; /* Centers container */
+    max-width: 500px; 
+    margin: auto; 
   }
   
   .skillItem {
@@ -37,9 +35,8 @@
     justify-content: center;
     border-radius: 10px;
     padding: 15px;
-    width: 130px; /* Same width for all */
-    height: 130px; /* Same height for all */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 130px; 
+    height: 130px; 
     transition: all 0.3s ease-in-out;
   }
   
@@ -48,7 +45,7 @@
   }
   
   .icon {
-    font-size: 50px; /* Uniform icon size */
+    font-size: 50px; 
     color: #333;
   }
   

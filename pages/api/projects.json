@@ -135,7 +135,7 @@
   },
   {
     "id": 16,
-    "name": "flyMe Ticket Booking",
+    "name": "flyMe Ticket and Courier Tracking",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "The primary aim of this project is to create a simple and efficient flight booking system with tracking capabilities. The system allows users to add new shipments and track them using a unique tracking number.",
     "tags": ["react", "firebase", "css"],
@@ -186,6 +186,15 @@
     "tags": ["react", "firebase", "css"],
     "source_code": "https://github.com/Gozkybrain/qr-clock-in",
     "demo": "https://qr-clock-in.netlify.app/"
+  },
+  {
+    "id": 21,
+    "name": "iBukas Solar Energy",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "This project is a robust solar inverter management calculator system which will focus primarily on calculating load for a house hold and recommending the right type of system.",
+    "tags": ["react", "firebase", "css"],
+    "source_code": "https://ibukas-energy.netlify.app/",
+    "demo": "https://ibukas-energy.netlify.app/"
   }
 ]
 
