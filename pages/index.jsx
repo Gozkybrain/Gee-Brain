@@ -70,7 +70,7 @@ export default function HomePage() {
           {/* <Illustration className={styles.illustration} /> */}
           {/* Logo image */}
           <div className={styling.imageWrapper}>
-            <Image src={logo} alt="Sarcastic Geek Logo" className={styling.myImg} />
+            {/* <Image src={logo} alt="Sarcastic Geek Logo" className={styling.myImg} /> */}
           </div>
         </d>
       </div>

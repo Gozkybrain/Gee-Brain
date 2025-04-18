@@ -35,10 +35,11 @@
   background: rgba(67, 153, 52, 0.25);
 }
 
-.bootstrap {
+.bootstrap, .web3 {
   border: 0.1rem solid rgb(118, 74, 188);
 }
-.bootstrap:hover {
+.bootstrap:hover,
+.web3:hover {
   background: rgba(118, 74, 188, 0.25);
 }
 

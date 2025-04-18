@@ -48,6 +48,13 @@ const ContactPage = () => {
       <div className={styles['work-section']}>
         <h3 className={styles.heading}>Professional Experience</h3>
         <div className={styles.item}>
+          <h4 className={styles.resumeHead}>Advertorial Hub</h4>
+          <div>Remote: Enugu State, Nigeria</div>
+          <div>Backend Developer with Express</div>
+          <div>2025 - Present </div>
+        </div>
+
+        <div className={styles.item}>
           <h4 className={styles.resumeHead}>Virtuous Tech Enterprise</h4>
           <div>Remote: Edo State, Nigeria</div>
           <div>Frontend Developer with React</div>
