@@ -1,0 +1,14 @@
+# Enable rewrite engine
+RewriteEngine On
+
+# If a folder or file exists, serve it directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Rewrite "pretty URLs" to their .html counterparts
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([^/]+)/?$ $1.html [L]
+
+# If nothing matches, fallback to index.html (SPA mode)
+RewriteRule ^.*$ /index.html [L,QSA]

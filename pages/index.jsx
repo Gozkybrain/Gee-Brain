@@ -18,7 +18,7 @@ export default function HomePage() {
           <h1>I BUILD</h1>
           <h1>MAGIC!</h1>
         </div>
-        <d    iv className={styles.foreground}>
+        <div className={styles.foreground}>
           <div className={styles.content}>
             <h1 className={styles.name}>Sarcastic Geek</h1>
             <h6 className={styles.bio}>Software Developer with
@@ -58,21 +58,27 @@ export default function HomePage() {
             </div>
 
 
-           <div className={styling.forMobile}>
+            <div className={styling.forMobile}>
               <Link href="/projects">
-              <button className={`${styles.button} ${styling.workBtn}`}>View Work</button>
+                <button className={`${styles.button} ${styling.workBtn}`}>View Work</button>
               </Link>
               <Link href="/resume">
                 <button className={`${styles.outlined} ${styling.contactBtn}`}>My Resume</button>
               </Link>
-           </div>
+            </div>
           </div>
           {/* <Illustration className={styles.illustration} /> */}
           {/* Logo image */}
           <div className={styling.imageWrapper}>
-            {/* <Image src={logo} alt="Sarcastic Geek Logo" className={styling.myImg} /> */}
+            <Image
+              src={logo}
+              alt="Sarcastic Geek Logo"
+              className={styling.myImg}
+              priority
+            />
+
           </div>
-        </d>
+        </div>
       </div>
     </>
   );
