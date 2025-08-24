@@ -16,7 +16,6 @@
   position: absolute;
   z-index: 1;
   transform: translateY(-20%);
-
 }
 
 .foreground {
@@ -25,6 +24,7 @@
   color: var(--accent-color);
   justify-content: space-between;
   align-items: center;
+
 }
 
 .name {
@@ -220,6 +220,7 @@
   .bio {
     font-size: 1.25rem;
     margin-bottom: 2rem;
+    text-align: left;
   }
   .button {
     font-size: 1rem;

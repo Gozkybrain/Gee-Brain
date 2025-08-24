@@ -6,7 +6,7 @@ const CustomHead = ({ title = 'Sarcastic Geek' }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Sarcastic Geek is an amazing developer that like to make complex stuff as easy as possible."
+        content="Sarcastic Geek is an amazing software developer that like to make complex stuff as easy as possible. Are you a member of the Sarcastic Geeks Trybe?"
       />
       <meta
         name="keywords"
@@ -17,7 +17,7 @@ const CustomHead = ({ title = 'Sarcastic Geek' }) => {
         property="og:description"
         content="A normal life is Boring."
       />
-      <meta property="og:url" content="https://vscode-portfolio.vercel.app" />
+      <meta property="og:url" content="https://sarcastic-geek.netlify.app" />
     </Head>
   );
 };

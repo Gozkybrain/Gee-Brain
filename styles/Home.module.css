@@ -14,51 +14,70 @@
     transform: translateY(-20%);
 }
 
+
 .offset-bg {
     transform: translateY(-40%);
 }
 
 .skillsContainer {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
     padding: 10px;
-    max-width: 500px; 
-    margin: auto; 
-  }
-  
-  .skillItem {
+    max-width: 600px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.myImg {
+    width: 100%;
+    height: 100%;
+}
+
+.skillItem {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
     padding: 15px;
-    width: 130px; 
-    height: 130px; 
+    width: 85px;
+    height: 110px;
     transition: all 0.3s ease-in-out;
-  }
-  
-  .skillItem:hover {
+}
+
+.icon {
+    font-size: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.skillItem:hover {
     transform: scale(1.1);
-  }
-  
-  .icon {
-    font-size: 50px; 
-    color: #333;
-  }
-  
-  .skillText {
+}
+
+
+.skillText {
     margin-top: 8px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-  }
-  
+    color: #dedede;
+}
+
 
 .reactIcon {
     color: #0088cc;
+}
+
+
+.aiIcon {
+    color: #ffb400;
+}
+
+
+.web3Icon {
+    color: #627eea;
 }
 
 .react-native-icon {
@@ -122,11 +141,6 @@
     text-shadow: 2px 2px 4px #000;
 }
 
-
-.icon {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-}
 
 
 
@@ -215,20 +229,20 @@
 }
 
 .forMobile {
-   padding: 30px 0;
+    padding: 30px 0;
 }
 
 /* Hides the element on screen widths less than 768px */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
     .myImg {
-      display: none !important;
+        display: none !important;
     }
 
     .container {
         margin-top: 1000px;
-      }
-  }
-  
+    }
+}
+
 
 /* Mobile styles */
 @media (max-width: 768px) {
@@ -255,6 +269,13 @@
 
     .skillText {
         display: none;
+    }
+
+    .skillItem {
+        padding: 15px;
+        width: 80px;
+        height: 80px;
+        transition: all 0.3s ease-in-out;
     }
 
     .myImg {
