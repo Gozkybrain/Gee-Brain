@@ -25,11 +25,6 @@ const explorerItems = [
     path: '/resume',
     icon: 'json_icon.svg',
   },
-  {
-    name: 'github.md',
-    path: '/github',
-    icon: 'markdown_icon.svg',
-  },
 ];
 
 

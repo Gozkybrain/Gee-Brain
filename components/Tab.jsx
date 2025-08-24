@@ -7,7 +7,7 @@ const Tab = ({ icon, filename, path }) => {
   const router = useRouter();
 
   return (
-    <Link href={path}>
+    <Link href={path} className={styles.link}>
       <div
         className={`${styles.tab} ${router.pathname === path && styles.active}`}
       >

@@ -27,7 +27,7 @@ const sidebarTopItems = [
   },
   {
     Icon: GithubIcon,
-    path: '/github',
+    path: 'https://github.com/Gozkybrain',
   },
   {
     Icon: FacebookIcon,
