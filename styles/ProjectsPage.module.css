@@ -5,6 +5,36 @@
   gap: 1.5rem;
 }
 
+.searchBox {
+  display: flex;
+  /* justify-content: center; */
+  margin: 1rem 0;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.7rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.searchInput:focus {
+  border-color: #0070f3;
+  box-shadow: 0 0 5px rgba(0, 112, 243, 0.3);
+}
+
+.noResults {
+  text-align: center;
+  margin-top: 2rem;
+  font-style: italic;
+  color: #888;
+}
+
+
 .heading {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
