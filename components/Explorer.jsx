@@ -21,9 +21,9 @@ const explorerItems = [
     icon: 'js_icon.svg',
   },
   {
-    name: 'resume.json',
+    name: 'resume.md',
     path: '/resume',
-    icon: 'json_icon.svg',
+    icon: 'markdown_icon.svg',
   },
 ];
 
