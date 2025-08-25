@@ -18,7 +18,7 @@ export default function AboutMe() {
             />
           </div>
           <div className={styles.textContainer} data-aos="fade-left">
-            <h3 className={styles.textHead}>Mobile App &amp; Web Developer</h3>
+            <h3 className={styles.textHead}>AI Software Developer</h3>
             <ul className={styles.list}>
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
@@ -33,7 +33,7 @@ export default function AboutMe() {
               <li className={styles.listItem}>
                 <i className={`${styles.icon} bi bi-chevron-right`}></i>
                 <span><strong className={styles.strong}>College Degree: </strong>
-                  Industrial Microbiology</span>
+                  BSc. Industrial Microbiology</span>
               </li>
             </ul>
           </div>
@@ -58,11 +58,13 @@ export default function AboutMe() {
           </div>
         </div>
         <div className={styles.paragraph}>
-          Innovative and deadline-driven Developer with 3+ years of experience researching and developing solutions that meet client satisfaction using the easiest, yet effective approach possible. I make the whole concept of developing, a whole vibe - A Normal Life is Boring.        </div>
+          Innovative and deadline-driven Developer with 5+ years of experience researching and developing solutions that meet client satisfaction using the easiest, yet effective approach possible.
+          I make the whole concept of developing a whole vibe — A Normal Life is Boring. I’m also the founder of the <strong>Sarcastic Geeks Trybe</strong>, a tech community that encourages collaboration, shared learning, and building cool stuff together.
+        </div>
 
         {/* Skills Section */}
         <div className={styles.skillsSection}>
-        <h3 className={styles.textHead}>Skills</h3>
+          <h3 className={styles.textHead}>Skills</h3>
           <div className={styles.skillsGrid}>
             <div className={styles.skill}>
               <span className={styles.skillName}>JavaScript</span>
@@ -77,7 +79,7 @@ export default function AboutMe() {
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>CSS & Bootstrap</span>
+              <span className={styles.skillName}>Wordpress, CSS & Bootstrap</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '92%' }}></div>
               </div>
@@ -85,19 +87,19 @@ export default function AboutMe() {
             <div className={styles.skill}>
               <span className={styles.skillName}>MongoDB, ExpressJS & NodeJS</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '75%' }}></div>
+                <div className={styles.progress} style={{ width: '88%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>Motoko, Solana Rust & Web3JS</span>
+              <span className={styles.skillName}>Web3 Development & Integration</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '60%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>Wordpress</span>
+              <span className={styles.skillName}>Prompt Engineering & AI Integration</span>
               <div className={styles.progressBar}>
-                <div className={styles.progress} style={{ width: '95%' }}></div>
+                <div className={styles.progress} style={{ width: '75%' }}></div>
               </div>
             </div>
             <div className={styles.skill}>
@@ -107,7 +109,7 @@ export default function AboutMe() {
               </div>
             </div>
             <div className={styles.skill}>
-              <span className={styles.skillName}>Git & Postman</span>
+              <span className={styles.skillName}>Git, SMTP, & Postman</span>
               <div className={styles.progressBar}>
                 <div className={styles.progress} style={{ width: '85%' }}></div>
               </div>

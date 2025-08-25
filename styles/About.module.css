@@ -74,6 +74,7 @@
 .paragraph {
     margin-top: 20px;
     font-size: 18px;
+    line-height: 1.9;
     /* font-weight: 400px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

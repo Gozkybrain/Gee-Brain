@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from '../styles/About.module.css'; // Import the CSS module 
+import styles from '../styles/About.module.css'; 
 import brain from '../public/brain.jpg';
 
 export default function AboutMe() {
