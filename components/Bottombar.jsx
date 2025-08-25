@@ -35,9 +35,7 @@ const Bottombar = () => {
           <p>Prettier</p>
         </div>
         <div className={styles.section}>
-          <Link href="/notifications"> {/* Example of internal link */}
             <BellIcon />
-          </Link>
         </div>
       </div>
     </footer>
