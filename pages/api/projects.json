@@ -345,7 +345,21 @@
       "css",
       "web3"
     ],
-    "source_code": "https://sarcasticgeeks.com/",
-    "demo": "https://sarcasticgeeks.com/"
+    "source_code": "https://sarcasticgeeks.com",
+    "demo": "https://sarcasticgeeks.com"
+  },
+    {
+    "id": 27,
+    "name": "Nodemailer + Zoho Mail",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "This project sets up a secure mailing system using Nodemailer with Zoho Mail SMTP, integrated into a Next.js API route. It is designed to handle both single test emails and bulk promotional campaigns securely.",
+    "tags": [
+      "react",
+      "nextjs",
+      "css",
+      "smtp"
+    ],
+    "source_code": "https://e-nodemailer.netlify.app",
+    "demo": "https://e-nodemailer.netlify.app"
   }
 ]
