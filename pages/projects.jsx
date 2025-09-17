@@ -41,7 +41,7 @@ const ProjectsPage = ({ projects }) => {
 };
 
 export async function getStaticProps() {
-  const projects = getProjects(); // Already returns correct order
+  const projects = getProjects(); 
 
   return {
     props: { title: 'Projects', projects },

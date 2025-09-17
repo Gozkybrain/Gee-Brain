@@ -3,8 +3,6 @@ import styles from '../styles/HomePage.module.css';
 import styling from '../styles/Home.module.css';
 import logo from "../public/logo.png";
 import Image from 'next/image';
-
-// FontAwesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faWordpress, faJs, faNode, faEthereum } from '@fortawesome/free-brands-svg-icons';
 import { faRobot } from '@fortawesome/free-solid-svg-icons';

@@ -2,7 +2,7 @@
 .card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
-  gap: 2rem; /* Adjust gap between the cards */
+  gap: 2rem;
   margin-top: 2rem;
 }
 

@@ -264,7 +264,7 @@
     }
 
     .icon {
-        font-size: 2rem;
+        font-size: 20rem;
     }
 
     .skillText {
@@ -272,9 +272,9 @@
     }
 
     .skillItem {
-        padding: 15px;
-        width: 80px;
-        height: 80px;
+        padding: 0px;
+        width: 30px;
+        height: 40px;
         transition: all 0.3s ease-in-out;
     }
 

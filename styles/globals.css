@@ -13,11 +13,11 @@
   border: 0.1rem solid rgb(97, 218, 251);
 }
 
-.react:hover, .html:hover, .firebase:hover {
+.react:hover, .html:hover, .firebase:hover, .ai:hover {
   background: rgba(97, 218, 251, 0.25);
 }
 
-.html, .firebase {
+.html, .firebase, .ai {
   border: 2px solid orange;
 }
 
@@ -28,14 +28,14 @@
   background: rgba(131, 205, 41, 0.25);
 }
 
-.javascript, .telegram {
+.javascript, .telegram, .nextjs {
   border: 0.1rem solid rgb(67, 153, 52);
 }
 .javascript:hover, .telegram:hover {
   background: rgba(67, 153, 52, 0.25);
 }
 
-.bootstrap, .web3 {
+.bootstrap, .web3, .smtp {
   border: 0.1rem solid rgb(118, 74, 188);
 }
 .bootstrap:hover,
