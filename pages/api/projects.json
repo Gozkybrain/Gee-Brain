@@ -338,12 +338,14 @@
     "id": 26,
     "name": "Sarcastic Geeks Trybe",
     "image": "https://imgur.com/8FFqaX8.png",
-    "description": "The Community is aimed at connecting even the lowest echelon of developers and techies in general, and creating a link with seniors and intermediates alike. Community extra mural activities like X Spaces and #100DaysOfCodeAndDesign have been pivoting this collaborative and creative insight, and now the community's official web program.",
+    "description": "The Community is aimed at connecting even the lowest echelon of developers and techies in general, and creating a link with seniors and intermediates alike. Community extra mural activities like X Spaces and #100DaysOfCodeAndDesign have been pivoting this collaborative and creative insight, and now BEZ AI Course Builder.",
     "tags": [
       "react",
       "firebase",
       "css",
-      "web3"
+      "web3",
+      "api",
+      "AI"
     ],
     "source_code": "https://sarcasticgeeks.com",
     "demo": "https://sarcasticgeeks.com"
@@ -361,5 +363,20 @@
     ],
     "source_code": "https://e-nodemailer.netlify.app",
     "demo": "https://e-nodemailer.netlify.app"
+  },
+    {
+    "id": 28,
+    "name": "The Trybe Games",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "This is a dynamic collection of lightweight, Firebase-powered web games built for fast fun and real user interaction. Whether you're a competitive player, a casual gamer, or just here to test your reflexes, there's something here for everyone.",
+    "tags": [
+      "react",
+      "firebase",
+      "css",
+      "html",
+      "javascript"
+    ],
+    "source_code": "https://sarcasticgeeks.com/play",
+    "demo": "https://sarcasticgeeks.com/play"
   }
 ]
