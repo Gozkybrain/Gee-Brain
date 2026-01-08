@@ -107,13 +107,13 @@
 /* ================= Mobile Responsiveness ================= */
 @media (max-width: 900px) {
   .grid {
-    grid-template-columns: 1fr; /* stack sections vertically */
+    grid-template-columns: 1fr; 
   }
 }
 
 @media (max-width: 600px) {
   .container {
-    padding: 1rem;
+    padding: 0.1rem;
   }
 
   .avatar {

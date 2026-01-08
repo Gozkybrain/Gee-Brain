@@ -308,19 +308,6 @@
     "demo": "https://home-let.netlify.app/"
   },
   {
-    "id": 24,
-    "name": "Sui Safe",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "Sui Safe is a Web3-native financial app that re-imagines traditional saving apps like PiggyVest and Cowrywise through a decentralized lens.",
-    "tags": [
-      "react",
-      "web3",
-      "css"
-    ],
-    "source_code": "https://sui-safe-pi.vercel.app/",
-    "demo": "https://sui-safe-pi.vercel.app/"
-  },
-  {
     "id": 25,
     "name": "Metro Melt Precision Training",
     "image": "https://imgur.com/8FFqaX8.png",
