@@ -12,6 +12,7 @@ import TikTokIcon from './icons/TiktokIcon';
 import styles from '../styles/Sidebar.module.css';
 import LinkedInIcon from './icons/LinkedInIcon';
 
+
 const sidebarTopItems = [
   {
     Icon: FilesIcon,
