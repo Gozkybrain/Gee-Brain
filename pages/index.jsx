@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from '../styles/HomePage.module.css';
 import styling from '../styles/Home.module.css';
-import logo from "../public/logo.png";
+import logo from "../public/gee.jpg";
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faWordpress, faJs, faNode, faEthereum } from '@fortawesome/free-brands-svg-icons';
