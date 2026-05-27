@@ -1,9 +1,9 @@
-/* styles/About.module.css */
 .about {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
+    /* padding: 20px; */
+    overflow-x: hidden;
 }
 
 .container {
@@ -25,9 +25,8 @@
     border: 1px solid #dedede;
     box-shadow: 1px 3px 13px #1F2428;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
-
+    height: 200px;
+    width: 200px;
 }
 
 .textContainer {
@@ -74,7 +73,6 @@
     margin-top: 20px;
     font-size: 18px;
     line-height: 1.9;
-    /* font-weight: 400px; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -88,48 +86,105 @@
 
 .skillsGrid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    /* Two columns for skills */
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
 }
 
-.skill {
-    display: flex;
-    flex-direction: column;
-}
-
-.skillName {
-    display: block;
-    /* font-weight: bold; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 5px;
-}
-
-.progressBar {
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    overflow: hidden;
-    height: 10px;
-    width: 100%;
-}
-
-.progress {
-    background-color: #0088cc;
+.categoryCard {
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 8px;
     height: 100%;
-    width: 0;
-    transition: width 0.3s ease;
 }
+
+.categoryCard:hover {
+    border-color: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.categoryTitle {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skillList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.skillTag {
+    padding: 5px 12px;
+    font-size: 0.9rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid #444; /* Default border */
+    color: #dedede;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Color thematic classes to match globals.css */
+.reactTag { border-color: rgb(97, 218, 251); }
+.reactTag:hover { background: rgba(97, 218, 251, 0.15); }
+
+.nodeTag { border-color: rgb(131, 205, 41); }
+.nodeTag:hover { background: rgba(131, 205, 41, 0.15); }
+
+.jsTag, .nextTag { border-color: rgb(67, 153, 52); }
+.jsTag:hover, .nextTag:hover { background: rgba(67, 153, 52, 0.15); }
+
+.web3Tag, .bootstrapTag { border-color: rgb(118, 74, 188); }
+.web3Tag:hover, .bootstrapTag:hover { background: rgba(118, 74, 188, 0.15); }
+
+.apiTag { border-color: rgb(82, 143, 240); }
+.apiTag:hover { background: rgba(82, 143, 240, 0.15); }
+
+.firebaseTag { border-color: rgb(25, 118, 210); }
+.firebaseTag:hover { background: rgba(25, 118, 210, 0.15); }
+
+.expressTag { border-color: rgb(0, 209, 178); }
+.expressTag:hover { background: rgba(0, 209, 178, 0.15); }
+
+.aiTag { border-color: orange; }
+.aiTag:hover { background: rgba(255, 165, 0, 0.15); }
+
+.defaultTag { border-color: #666; }
+.defaultTag:hover { background: rgba(255, 255, 255, 0.05); }
+
+/* No longer using progress bars */
 
 /* Media Query for Devices with Max Width of 700px */
 @media (max-width: 700px) {
     .grid {
         grid-template-columns: 1fr;
-        /* Single column layout */
-        gap: 20px;
+        gap: 30px;
+    }
+
+    .imageContainer {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .textContainer {
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+    .listItem {
+        justify-content: flex-start;
     }
 
     .skillsGrid {
         grid-template-columns: 1fr;
-        /* Single column layout for skills on small screens */
     }
 }
