@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from '../styles/HomePage.module.css';
 import styling from '../styles/Home.module.css';
-import logo from "../public/gee.jpg";
+import logo from "../public/geebrain.JPG";
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faWordpress, faJs, faNode, faEthereum } from '@fortawesome/free-brands-svg-icons';
@@ -17,9 +17,9 @@ export default function HomePage() {
         </div>
         <div className={styles.foreground}>
           <div className={styles.content}>
-            <h1 className={styles.name}>Sarcastic Geek</h1>
-            <h6 className={styles.bio}> AI Software Developer with
-              <span className={styles.react}> Web3.</span></h6>
+            <h1 className={styles.name}>Gozie Brain Izuka</h1>
+            <h6 className={styles.bio}> Software Developer
+              <span className={styles.react}> (Integrating AI & Web3).</span></h6>
 
             {/* Skill Icons Section */}
             <div className={styling.skillsContainer}>
@@ -65,17 +65,14 @@ export default function HomePage() {
 
             <div className={styling.forMobile}>
               <Link href="/projects">
-                <button className={`${styles.button} ${styling.workBtn}`}>View Work</button>
-              </Link>
-              <Link href="/resume">
-                <button className={`${styles.outlined} ${styling.contactBtn}`}>My Resume</button>
+                <button className={`${styles.outlined} ${styling.contactBtn}`}>View My Projects</button>
               </Link>
             </div>
           </div>
 
 
-          {/* Logo image */}
-          <div className={styling.imageWrapper}>
+          {/* Logo image - DO NOT DELETE */}
+          {/* <div className={styling.imageWrapper}>
             <Image
               src={logo}
               alt="Sarcastic Geek Logo"
@@ -83,7 +80,7 @@ export default function HomePage() {
               priority
             />
 
-          </div>
+          </div> */}
         </div>
       </div>
     </>

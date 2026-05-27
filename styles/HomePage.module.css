@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
 .container {
   display: flex;
@@ -11,11 +10,11 @@
 
 .background {
   font-size: 5rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   line-height: 1.1;
   color: var(--bg-text);
   position: absolute;
-  z-index: 1;
+  /* z-index: 1; */
   transform: translateY(-20%);
 }
 
@@ -25,14 +24,15 @@
   color: var(--accent-color);
   justify-content: space-between;
   align-items: center;
-
 }
 
 .name {
   color: #eee;
   font-size: 4rem;
   font-weight: 500;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
   text-shadow: 4px 4px 6px #000;
   margin-bottom: 0.5rem;
   text-align: left;
@@ -55,7 +55,7 @@
 
 .bio::before,
 .bio::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 0;
@@ -72,7 +72,8 @@
   margin-left: 0.4rem;
   width: 0.125em;
   background: var(--accent-color);
-  animation: typewriter 2.5s steps(24) 500ms forwards,
+  animation:
+    typewriter 2.5s steps(24) 500ms forwards,
     blink 750ms steps(24) infinite;
 }
 
@@ -118,37 +119,11 @@
   width: 460px;
 }
 
-/* 4K Screens */
-@media screen and (min-width: 2000px) {
-  .background {
-    font-size: 8.5rem;
-  }
-  .content {
-    padding: 0 3rem;
-  }
-  .name {
-    font-size: 6rem;
-  }
-  .bio {
-    font-size: 3rem;
-    margin-bottom: 5rem;
-  }
-  .button {
-    font-size: 2rem;
-  }
-  .outlined {
-    font-size: 2rem;
-  }
-  .illustration {
-    height: 900px;
-    width: 700px;
-  }
-}
-
 /* iPad Pro */
 @media screen and (max-width: 1100px) {
   .background {
-    display: none;
+    /* display: none; */
+    font-size: 2.7rem;
   }
   .container {
     display: block;
@@ -156,7 +131,7 @@
   .foreground {
     margin: 4rem 0;
     display: block;
-    text-align: center;
+    /* text-align: center; */
   }
   .name {
     font-size: 4rem;
@@ -173,25 +148,6 @@
     width: 600px;
   }
 }
-
-/* iPad */
-/* @media screen and (max-width: 900px) {
-  .foreground {
-    margin: 2rem 0;
-  }
-  .name {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-  }
-  .bio {
-    font-size: 1.5rem;
-  }
-  .illustration {
-    height: 550px;
-    width: 420px;
-    bottom: -50px;
-  }
-} */
 
 @media screen and (orientation: landscape) and (max-width: 1050px) {
   .container {
@@ -213,7 +169,8 @@
     margin-left: 0.4rem;
     width: 0.125em;
     background: none;
-    animation: typewriter 2.5s steps(24) 500ms forwards,
+    animation:
+      typewriter 2.5s steps(24) 500ms forwards,
       blink 750ms steps(24) infinite;
   }
   .name {
@@ -243,10 +200,10 @@
 /* hide as long as it is not a pc view ie 900px min */
 @media screen and (max-width: 900px) {
   .container {
-      margin-top: 100px;
-    }
+    margin-top: 100px;
+  }
 
-    .bio {
-  width: 100%;
-    }
+  .bio {
+    width: 100%;
+  }
 }

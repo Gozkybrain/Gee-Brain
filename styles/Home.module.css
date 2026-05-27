@@ -1,347 +1,339 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 
 .cover-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.offset {
+  transform: translateY(-20%);
+}
+
+.offset-bg {
+  transform: translateY(-40%);
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  max-width: 600px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.myImg {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.skillItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 15px;
+  width: 85px;
+  height: 110px;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon {
+  font-size: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.skillItem:hover {
+  transform: scale(1.1);
+}
+
+.skillText {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #dedede;
+}
+
+.reactIcon {
+  color: #0088cc;
+}
+
+.aiIcon {
+  color: #ffb400;
+}
+
+.web3Icon {
+  color: #627eea;
+}
+
+.react-native-icon {
+  color: #0088cc;
+}
+
+.css-icon {
+  color: #264de4;
+}
+
+.bootstrap-icon {
+  color: #563d7c;
+}
+
+.wordpressIcon {
+  color: #0088aa;
+}
+
+.jsIcon {
+  color: #f7e018;
+}
+
+.rustIcon {
+  color: #dea584;
+}
+
+.mongodb-icon {
+  color: #47a248;
+}
+
+.nodeIcon {
+  color: #8cc84b;
+}
+
+.firebase-icon {
+  color: #ffca28;
+}
+
+.home-background-text {
+  position: absolute;
+  left: 10px;
+  z-index: 10;
+  font-size: 12rem;
+  font-weight: 800;
+  line-height: 1;
+  color: var(--bg-text);
+  display: none;
+}
+
+.developer {
+  color: #dedede;
+  padding: 10px 0;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  text-shadow: 4px 4px 6px #000;
+}
+
+.react {
+  color: #0088cc;
+  -webkit-text-stroke: 1px #2d2d2d;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.workBtn {
+  background-color: #3b5998;
+}
+
+.contactBtn {
+  border: 2px solid #3b5998;
+}
+
+.home-background-text h1 {
+  margin: 0;
+}
+
+.home-content {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1rem;
+}
+
+.home-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #eee;
+}
+
+.home-heading-md {
+  font-size: 4rem;
+}
+
+.home-heading-xl {
+  font-size: 8rem;
+}
+
+.home-subheading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #eee;
+}
+
+.home-subheading-md {
+  font-size: 1.875rem;
+}
+
+.home-button {
+  display: inline-block;
+  margin-top: 2.5rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button-secondary {
+  margin-left: 0.75rem;
+  padding: 0.5rem 1.25rem;
+  border: 2px solid var(--accent-color);
+  color: var(--text-color);
+  background-color: transparent;
+}
+
+.home-button:hover {
+  background-color: var(--accent-color-dark);
+}
+
+.home-button-secondary:hover {
+  border-color: var(--accent-color-dark);
+}
+
+.relative {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forMobile {
+  padding: 30px 0;
+}
+
+/* Hides the element on screen widths less than 768px */
+@media screen and (max-width: 1100px) {
+  .myImg {
+    display: none !important;
+  }
+
+  .container {
+    margin-top: 1000px;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .relative {
+    flex-direction: column;
+  }
+
+  .imageWrapper {
+    order: -1;
+  }
+
+  .cover-home {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     text-align: center;
     position: relative;
-}
+  }
 
-.offset {
-    transform: translateY(-20%);
-}
+  .icon {
+    font-size: 20rem;
+  }
 
-
-.offset-bg {
-    transform: translateY(-40%);
-}
-
-.skillsContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    padding: 10px;
-    max-width: 600px;
-    margin: auto;
-    flex-wrap: wrap;
-}
-
-.myImg {
-    width: 100%;
-    height: 100%;
-}
-
-.skillItem {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    padding: 15px;
-    width: 85px;
-    height: 110px;
-    transition: all 0.3s ease-in-out;
-}
-
-.icon {
-    font-size: 10px;
-    margin-bottom: 0.5rem;
-}
-
-.skillItem:hover {
-    transform: scale(1.1);
-}
-
-
-.skillText {
-    margin-top: 8px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    color: #dedede;
-}
-
-
-.reactIcon {
-    color: #0088cc;
-}
-
-
-.aiIcon {
-    color: #ffb400;
-}
-
-
-.web3Icon {
-    color: #627eea;
-}
-
-.react-native-icon {
-    color: #0088cc;
-}
-
-.css-icon {
-    color: #264de4;
-}
-
-.bootstrap-icon {
-    color: #563d7c;
-}
-
-.wordpressIcon {
-    color: #0088aa;
-}
-
-.jsIcon {
-    color: #f7e018;
-}
-
-.rustIcon {
-    color: #dea584;
-}
-
-.mongodb-icon {
-    color: #47a248;
-}
-
-.nodeIcon {
-    color: #8cc84b;
-}
-
-.firebase-icon {
-    color: #ffca28;
-}
-
-
-.home-background-text {
-    position: absolute;
-    left: 10px;
-    z-index: 10;
-    font-size: 12rem;
-    font-weight: 800;
-    line-height: 1;
-    color: var(--bg-text);
+  .skillText {
     display: none;
-}
+  }
 
-.developer {
-    color: #dedede;
-    padding: 10px 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 4px 4px 6px #000;
-}
+  .skillItem {
+    padding: 0px;
+    width: 30px;
+    height: 40px;
+    transition: all 0.3s ease-in-out;
+  }
 
-.react {
-    color: #0088cc;
-    -webkit-text-stroke: 1px #2d2d2d;
-    text-shadow: 2px 2px 4px #000;
-}
+  .myImg {
+    display: none !important;
+  }
 
-
-
-
-.workBtn {
-    background-color: #3b5998;
-}
-
-.contactBtn {
-    border: 2px solid #3b5998;
-}
-
-.home-background-text h1 {
-    margin: 0;
-}
-
-.home-content {
-    position: relative;
-    z-index: 20;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2.5rem;
-    padding: 1rem;
-}
-
-.home-heading {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #eee;
-}
-
-.home-heading-md {
-    font-size: 4rem;
-}
-
-.home-heading-xl {
-    font-size: 8rem;
-}
-
-.home-subheading {
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: #eee;
-}
-
-.home-subheading-md {
-    font-size: 1.875rem;
-}
-
-.home-button {
-    display: inline-block;
-    margin-top: 2.5rem;
-    padding: 0.5rem 1.5rem;
-    font-weight: 500;
+  .content {
     text-align: center;
-    color: #fff;
-    background-color: var(--accent-color);
-    border: none;
-    border-radius: 0.25rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  }
+
+  .work-btn,
+  .contact-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .react {
+    font-size: 17px;
+  }
 }
-
-.home-button-secondary {
-    margin-left: 0.75rem;
-    padding: 0.5rem 1.25rem;
-    border: 2px solid var(--accent-color);
-    color: var(--text-color);
-    background-color: transparent;
-}
-
-.home-button:hover {
-    background-color: var(--accent-color-dark);
-}
-
-.home-button-secondary:hover {
-    border-color: var(--accent-color-dark);
-}
-
-
-.relative {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.forMobile {
-    padding: 30px 0;
-}
-
-/* Hides the element on screen widths less than 768px */
-@media screen and (max-width: 1100px) {
-    .myImg {
-        display: none !important;
-    }
-
-    .container {
-        margin-top: 1000px;
-    }
-}
-
-
-/* Mobile styles */
-@media (max-width: 768px) {
-    .relative {
-        flex-direction: column;
-    }
-
-    .imageWrapper {
-        order: -1;
-    }
-
-    .cover-home {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        text-align: center;
-        position: relative;
-    }
-
-    .icon {
-        font-size: 20rem;
-    }
-
-    .skillText {
-        display: none;
-    }
-
-    .skillItem {
-        padding: 0px;
-        width: 30px;
-        height: 40px;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .myImg {
-        display: none !important;
-    }
-
-    .content {
-        text-align: center;
-    }
-
-    .work-btn,
-    .contact-btn {
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .react {
-        font-size: 17px;
-    }
-}
-
 
 @media (min-width: 768px) {
-    .home-background-text {
-        display: block;
-    }
+  .home-background-text {
+    display: block;
+  }
 
-    .forMobile {
-        display: none;
-    }
+  .forMobile {
+    display: none;
+  }
 
-    .home-heading {
-        font-size: 4rem;
-    }
+  .home-heading {
+    font-size: 4rem;
+  }
 
-    .home-subheading {
-        font-size: 1.875rem;
-    }
+  .home-subheading {
+    font-size: 1.875rem;
+  }
 
-    .home-button {
-        padding: 0.75rem 2rem;
-        font-size: 1.125rem;
-    }
+  .home-button {
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+  }
 
-    .home-button-secondary {
-        padding: 0.75rem 1.75rem;
-        font-size: 1.125rem;
-    }
+  .home-button-secondary {
+    padding: 0.75rem 1.75rem;
+    font-size: 1.125rem;
+  }
 }
 
 @media (min-width: 1280px) {
-    .home-heading {
-        font-size: 8rem;
-    }
+  .home-heading {
+    font-size: 8rem;
+  }
 
-    .home-subheading {
-        font-size: 2.25rem;
-    }
+  .home-subheading {
+    font-size: 2.25rem;
+  }
 
-    .home-button {
-        padding: 0.75rem 2.25rem;
-        font-size: 1.25rem;
-    }
+  .home-button {
+    padding: 0.75rem 2.25rem;
+    font-size: 1.25rem;
+  }
 
-    .home-button-secondary {
-        padding: 0.75rem 2rem;
-        font-size: 1.25rem;
-    }
+  .home-button-secondary {
+    padding: 0.75rem 2rem;
+    font-size: 1.25rem;
+  }
 }
