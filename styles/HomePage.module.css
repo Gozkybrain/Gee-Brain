@@ -9,13 +9,14 @@
 }
 
 .background {
-  font-size: 5rem;
+  font-size: clamp(2rem, 8vw, 5rem);
   font-family: "Montserrat";
   line-height: 1.1;
   color: var(--bg-text);
   position: absolute;
-  /* z-index: 1; */
   transform: translateY(-20%);
+  pointer-events: none;
+  user-select: none;
 }
 
 .foreground {
@@ -42,6 +43,7 @@
   width: max-content;
   color: #eee;
   font-size: 2rem;
+  line-height: 1.9;
   font-weight: 300;
   margin-bottom: 3rem;
   position: relative;
@@ -121,10 +123,7 @@
 
 /* iPad Pro */
 @media screen and (max-width: 1100px) {
-  .background {
-    /* display: none; */
-    font-size: 2.7rem;
-  }
+
   .container {
     display: block;
   }
