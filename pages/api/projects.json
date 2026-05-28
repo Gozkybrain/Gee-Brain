@@ -380,20 +380,21 @@
     "source_code": "https://e-nodemailer.netlify.app",
     "demo": "https://e-nodemailer.netlify.app"
   },
-
     {
     "id": 27,
     "name": "Advertorial Hub",
     "image": "https://imgur.com/8FFqaX8.png",
-    "description": "This project sets up a secure mailing system using Nodemailer with Zoho Mail SMTP, integrated into a Next.js API route. It is designed to handle both single test emails and bulk promotional campaigns securely.",
-    "tags": [
-      "react",
+    "description": "The Project allows users to describe their businesses or personal projects through posts, stores, and advertisements. Users can choose from multiple subscription plans to gain different levels of access to posts, ads, storefronts, and social media promotion. Admins have full control over user management, ad approvals, and analytics.",    "tags": [
+      "api",
       "nextjs",
       "css",
+      "mongodb",
+      "openrouter",
+      "paystack",
       "smtp"
     ],
-    "category": "Web App",
-    "source_code": "https://e-nodemailer.netlify.app",
-    "demo": "https://e-nodemailer.netlify.app"
+    "category": "Marketting Agency",
+    "source_code": "https://github.com/Gozkybrain/Advertorial-Hub",
+    "demo": "https://advertorialhub.net/"
   }
 ]

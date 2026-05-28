@@ -18,21 +18,19 @@ const ProjectCard = ({ project }) => {
   };
 
   return (
-    <div className={styles.card}>
+    <a 
+      href={project.source_code || project.demo} 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className={styles.card}
+    >
       <div className={styles.content}>
-        <div className={styles.cardHeader}>
-          <h3>
-            <a
-              href={project.demo} 
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
-              {project.name}
-            </a>
-          </h3>
-          <span className={styles.category}>{project.category}</span>
-        </div>
+        <span className={styles.category}>{project.category}</span>
+        <h3>
+          <span className={styles.underline}>
+            {project.name}
+          </span>
+        </h3>
         <p>{project.description}</p>
         <div className={styles.tags}>
           {project.tags.map((tag) => (
@@ -42,7 +40,7 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
       </div>
-    </div>
+    </a>
   );
 };
 
