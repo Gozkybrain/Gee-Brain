@@ -6,51 +6,48 @@ import {
   FaGitAlt,
   FaBootstrap,
   FaWordpress,
-  FaRobot
+  FaRobot,
 } from "react-icons/fa";
-import { SiMongodb, SiPostman, SiFirebase, SiEthereum } from "react-icons/si";
+import {
+  SiMongodb,
+  SiPostman,
+  SiFirebase,
+  SiEthereum,
+  SiMinutemailer,
+} from "react-icons/si";
 import styles from "../styles/ContactPage.module.css";
 
 // ================= Data =================
-const educationData = [
-  {
-    title: "iBukas Developer Experiment Lab",
-    institution: "Bukas Global Investments",
-    period: "2022 - Present",
-  },
-  {
-    title: "FULL-STACK WITH HTML, CSS, JAVASCRIPT, NODE, REACT, POSTGRESQL, WEB3 AND DAPPS",
-    institution: "Udemy INC. and Dr Angela Yu.",
-    period: "2022 - 2024",
-  },
-  {
-    title: "FULL STACK WEB DEVELOPMENT WITH REACT JS, ANGULAR AND NODEJS",
-    institution: "Udemy INC. and Oak Academy.",
-    period: "2022 - 2023",
-  },
-  {
-    title: "FRONTEND DEVELOPMENT WITH REACTJS, API INTEGRATION AND NODEJS",
-    institution: "Soutech Ventures, Owerri, Imo State, Nigeria.",
-    period: "2023",
-  },
-  {
-    title: "HTML, CSS, & JAVASCRIPT",
-    institution: "Coursera Online INC.",
-    period: "2020 - 2021",
-  },
-  {
-    title: "BSc. Industrial Microbiology",
-    institution: "Imo State University, Owerri.",
-    period: "2016 - 2020",
-  },
-];
-
 const experienceData = [
   {
     title: "Advertorial Hub",
     company: "Remote: Lagos State, Nigeria",
-    role: "Backend Developer with Express",
+    role: "Lead Software Developer",
     period: "2025 - Present",
+  },
+   {
+    title: "Sarcastic Geeks Trybe",
+    company: "Remote: Nigeria",
+    role: "Community Lead",
+    period: "2023 - Present",
+  },
+  {
+    title: "Xpress Plus Global Consulting",
+    company: "Remote: Lagos State, Nigeria",
+    role: "Contact Address Verification Developer",
+    period: "2025 - 2026",
+  },
+  {
+    title: "Zefra INC.",
+    company: "Remote: Owerri, Imo State, Nigeria",
+    role: "Web App Game Developer",
+    period: "2025 - 2026",
+  },
+   {
+    title: "Alpha Tech Hub",
+    company: "Physical: Owerri, Imo State, Nigeria",
+    role: "Lead Software Developer",
+    period: "2025 - 2026",
   },
   {
     title: "Virtuous Tech Enterprise",
@@ -76,15 +73,9 @@ const experienceData = [
     role: "Web Developer & Instructor",
     period: "2023",
   },
-  {
-    title: "KRIS MEDICAL LABORATORY",
-    company: "Physical: Imo State, Nigeria",
-    role: "Laboratory Scientist Intern",
-    period: "2019",
-  },
 ];
 
-export default function ContactPage({ education, experience }) {
+export default function ContactPage({ experience }) {
   return (
     <div className={styles.container}>
       {/* ================= Profile Section ================= */}
@@ -101,41 +92,11 @@ export default function ContactPage({ education, experience }) {
         </div>
       </div>
 
-      {/* ================= Skills Section ================= */}
-      <div className={styles.skills}>
-        <h3 className={styles.heading}>⚡ Tech Stack</h3>
-        <div className={styles.icons}>
-          <FaBootstrap title="Bootstrap & CSS" />
-          <FaWordpress title="Wordpress" />
-          <FaJsSquare title="JavaScript" />
-          <FaReact title="React / React Native / Next.js" />
-          <FaNode title="Node.js / Express.js" />
-          <SiFirebase title="Firebase" />
-          <SiMongodb title="MongoDB" />
-          <FaRobot title="AI Integration" />
-          <SiEthereum title="Web3 Development" />
-          <FaGitAlt title="Git / Version Control" />
-          <SiPostman title="Postman / API Testing" />
-        </div>
-      </div>
-
       {/* ================= Resume Grid ================= */}
       <div className={styles.grid}>
-        {/* Education */}
+        {/* Work (Left Column: 2/3) */}
         <div className={styles.section}>
-          <h3 className={styles.heading}>🎓 Education History</h3>
-          {education.map((edu, idx) => (
-            <div key={idx} className={styles.item}>
-              <h4 className={styles.title}>{edu.title}</h4>
-              <p>{edu.institution}</p>
-              <span>{edu.period}</span>
-            </div>
-          ))}
-        </div>
-
-        {/* Work */}
-        <div className={styles.section}>
-          <h3 className={styles.heading}>💼 Professional Experience</h3>
+          <h3 className={styles.heading}>Professional Experience</h3>
           {experience.map((exp, idx) => (
             <div key={idx} className={styles.item}>
               <h4 className={styles.title}>{exp.title}</h4>
@@ -144,6 +105,73 @@ export default function ContactPage({ education, experience }) {
               <span>{exp.period}</span>
             </div>
           ))}
+        </div>
+
+        {/* Skills (Right Column: 1/3) */}
+        <div className={styles.section}>
+          <h3 className={styles.heading}>Tech Stack</h3>
+          <div className={styles.icons}>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <FaJsSquare /> <span>JavaScript</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <FaReact /> <span>React / Next.js</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <FaNode /> <span>Node / Express</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <SiFirebase /> <span>Firebase</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <SiMongodb /> <span>MongoDB</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <FaRobot /> <span>AI Integration</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <SiEthereum /> <span>Web3 / DApps</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <FaWordpress /> <span>WordPress</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <FaBootstrap /> <span>CSS / Bootstrap</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <FaGitAlt /> <span>Git Control</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <SiPostman /> <span>API Testing</span>
+              </div>
+            </div>
+            <div className={styles.skillEntry}>
+              <div className={styles.skillTag}>
+                <SiMinutemailer /> <span>Email Api & SMTP</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -154,7 +182,6 @@ export async function getStaticProps() {
   return {
     props: {
       title: "Resume",
-      education: educationData,
       experience: experienceData,
     },
   };
