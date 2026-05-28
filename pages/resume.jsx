@@ -25,6 +25,12 @@ const experienceData = [
     role: "Lead Software Developer",
     period: "2025 - Present",
   },
+    {
+    title: "Sentra Finance",
+    company: "Remote: Nigeria",
+    role: "Lead Software Developer",
+    period: "2025 - Present",
+  },
    {
     title: "Sarcastic Geeks Trybe",
     company: "Remote: Nigeria",
