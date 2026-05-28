@@ -11,7 +11,7 @@
   background: var(--article-bg);
   display: flex;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
   padding: 1rem;
 }
@@ -20,12 +20,10 @@
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-
 .content {
   padding: 1rem;
   border-radius: 0 0 20px 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .content p {
@@ -38,14 +36,58 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0.5rem 0 1rem;
+  gap: 10px;
 }
 
-.tags span {
-  margin: 0.5rem 0.5rem 0 0;
-  padding: 0.2rem 0.5rem;
-  border-radius: 20px;
-  font-size: 0.75rem;
-  transition: all 0.2s;
+.skillTag {
+  padding: 4px 10px;
+  font-size: 0.7rem;
+  font-family: "Source Sans Pro", sans-serif;
+  border: 1px solid #444;
+  color: #dedede;
+  transition: all 0.3s ease;
+  cursor: default;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.reactTag {
+  border-color: rgb(97, 218, 251);
+  color: rgb(97, 218, 251);
+}
+.nodeTag {
+  border-color: rgb(131, 205, 41);
+  color: rgb(131, 205, 41);
+}
+.jsTag,
+.nextTag {
+  border-color: rgb(67, 153, 52);
+  color: rgb(67, 153, 52);
+}
+.web3Tag,
+.bootstrapTag {
+  border-color: rgb(118, 74, 188);
+  color: rgb(118, 74, 188);
+}
+.apiTag {
+  border-color: rgb(82, 143, 240);
+  color: rgb(82, 143, 240);
+}
+.firebaseTag {
+  border-color: rgb(25, 118, 210);
+  color: rgb(25, 118, 210);
+}
+.expressTag {
+  border-color: rgb(0, 209, 178);
+  color: rgb(0, 209, 178);
+}
+.aiTag {
+  border-color: orange;
+  color: orange;
+}
+.defaultTag {
+  border-color: #666;
+  color: #999;
 }
 
 .cta {
@@ -60,11 +102,7 @@
   cursor: pointer;
   color: white;
   text-decoration: none;
-  background-image: linear-gradient(
-    120deg,
-    #0088cc 100%,
-    #0088aa 100%
-  );
+  background-image: linear-gradient(120deg, #0088cc 100%, #0088aa 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;
@@ -76,7 +114,6 @@
 }
 
 /* Responsive: Adjust the grid for smaller screens */
-
 
 @media (max-width: 600px) {
   .card-container {

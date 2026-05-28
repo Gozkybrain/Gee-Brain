@@ -92,9 +92,9 @@ export default function ContactPage({ experience }) {
           <p className={styles.role}>AI Software Developer</p>
           <p>5+ Years of Dev Experience</p>
           <p>Freelance, Remote & Hybrid</p>
-          <p>
+          {/* <p>
             Founder of <strong>Sarcastic Geeks Trybe</strong>
-          </p>
+          </p> */}
         </div>
       </div>
 

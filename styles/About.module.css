@@ -161,6 +161,30 @@
 .defaultTag:hover { background: rgba(255, 255, 255, 0.05); }
 
 /* No longer using progress bars */
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.resumeButton {
+    padding: 12px 30px;
+    border: 1px solid var(--accent-color);
+    background: transparent;
+    color: var(--accent-color);
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.resumeButton:hover {
+    transform: translateY(-3px);
+}
 
 /* Media Query for Devices with Max Width of 700px */
 @media (max-width: 700px) {

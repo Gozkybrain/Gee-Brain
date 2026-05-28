@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/About.module.css";
 import brain from "../public/brain.jpg";
 
@@ -179,6 +180,11 @@ export default function AboutMe() {
                 </li>
               </ul>
             </div>
+          </div>
+          <div className={styles.buttonContainer}>
+            <Link href="/resume" className={styles.resumeButton}>
+              View Full Resume
+            </Link>
           </div>
         </div>
       </div>
