@@ -9,6 +9,7 @@
       "css",
       "javascript"
     ],
+    "category": "Web App",
     "demo": "https://gozkybrain.github.io/Simple-Age-Calculator"
   },
   {
@@ -21,6 +22,7 @@
       "css",
       "javascript"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/My-Guessing-Game-Pro",
     "demo": "https://gozkybrain.github.io/My-Guessing-Game-Pro"
   },
@@ -34,6 +36,7 @@
       "css",
       "javascript"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/my-babe-app",
     "demo": "https://my-babe-app.netlify.app"
   },
@@ -48,6 +51,7 @@
       "html",
       "bootstrap"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/GCK-Dashboard",
     "demo": "https://github.com/Gozkybrain/GCK-Dashboard"
   },
@@ -61,6 +65,7 @@
       "css",
       "javascript"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/My-Flip-Card",
     "demo": "https://gozkybrain.github.io/My-Flip-Card"
   },
@@ -74,6 +79,7 @@
       "css",
       "javascript"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/catchMe",
     "demo": "https://catchme-game.netlify.app"
   },
@@ -87,6 +93,7 @@
       "css",
       "javascript"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/Browser-Extension",
     "demo": "https://github.com/Gozkybrain/Browser-Extension"
   },
@@ -99,6 +106,7 @@
       "express",
       "api"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/feedMe-API",
     "demo": "https://github.com/Gozkybrain/feedMe-API"
   },
@@ -113,6 +121,7 @@
       "css",
       "bootstrap"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/v2-watcheMe",
     "demo": "https://watchme-v2.netlify.app"
   },
@@ -126,6 +135,7 @@
       "firebase",
       "css"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/Escrow-Chatme",
     "demo": "https://chatme-escrow.netlify.app"
   },
@@ -142,6 +152,7 @@
       "telegram",
       "api"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/Pharma-Check",
     "demo": "https://t.me/pharmacheckbot"
   },
@@ -155,38 +166,12 @@
       "firebase",
       "css"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/qr-clock-in",
     "demo": "https://qr-clock-in.netlify.app/"
   },
   {
     "id": 13,
-    "name": "FinTech Banking System",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "This project is a web-based fintech banking platform that provides users with a complete range of modern financial services, including savings and secure transfers, investments in both stocks and cryptocurrencies, loans with flexible repayment options, virtual and physical cards for everyday use, and a trusted escrow service for safe peer-to-peer and business transactions; it replicates and enhances the full process of banking, enabling users to save, invest, borrow, spend, and transact securely all in one place.",
-    "tags": [
-      "react",
-      "firebase",
-      "css",
-      "bootstrap"
-    ],
-    "source_code": "https://github.com/Gozkybrain/myBank-FinTech",
-    "demo": "https://github.com/Gozkybrain/myBank-FinTech"
-  },
-  {
-    "id": 14,
-    "name": "flyMe Ticket and Courier Tracking",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "The primary aim of this project is to create a simple and efficient flight booking system with tracking capabilities. The system allows users to add new shipments and track them using a unique tracking number.",
-    "tags": [
-      "react",
-      "firebase",
-      "css"
-    ],
-    "source_code": "https://github.com/Gozkybrain/flyme-booking-ticket",
-    "demo": "https://flyme-booking.netlify.app"
-  },
-  {
-    "id": 15,
     "name": "Straight Edge Web3 Games",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "The vision for Straight Edge from The Sarcastic Geeks Trybe 🚀 is to onboard as many users to web3 network using the easiest onchain gaming, leveraging the web2 authentication.",
@@ -196,11 +181,12 @@
       "web3",
       "firebase"
     ],
+    "category": "Web App",
     "source_code": "https://github.com/Gozkybrain/Straight-Edge-Xion",
     "demo": "https://github.com/Gozkybrain/Straight-Edge-Xion"
   },
   {
-    "id": 16,
+    "id": 14,
     "name": "iBukas Solar Energy",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "This project is a robust solar inverter management calculator system which will focus primarily on calculating load for a house hold and recommending the right type of system.",
@@ -209,11 +195,12 @@
       "firebase",
       "css"
     ],
+    "category": "Web App",
     "source_code": "https://ibukas-energy.netlify.app/",
     "demo": "https://ibukas-energy.netlify.app/"
   },
   {
-    "id": 17,
+    "id": 15,
     "name": "Home Let INC.",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "This project serves as a comprehensive marketplace for rental properties of various sorts. Whether you're an agent looking to list properties or someone searching for the perfect rental, this platform is designed to make the process seamless and secure.",
@@ -222,11 +209,26 @@
       "firebase",
       "css"
     ],
+    "category": "Web App",
     "source_code": "https://home-let.netlify.app/",
     "demo": "https://home-let.netlify.app/"
   },
+    {
+    "id": 16,
+    "name": "flyMe Ticket and Courier Tracking",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "The primary aim of this project is to create a simple and efficient flight booking system with tracking capabilities. The system allows users to add new shipments and track them using a unique tracking number.",
+    "tags": [
+      "react",
+      "firebase",
+      "css"
+    ],
+    "category": "Web App",
+    "source_code": "https://github.com/Gozkybrain/flyme-booking-ticket",
+    "demo": "https://flyme-booking.netlify.app"
+  },
   {
-    "id": 18,
+    "id": 17,
     "name": "Metro Melt Precision Training",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "The Training is a centralized platform designed to give students a personalized overview of their training journey. It combines authentication, course information, and schedule visibility in one modern, interactive dashboard.",
@@ -236,27 +238,12 @@
       "css",
       "api"
     ],
+    "category": "Web App",
     "source_code": "https://www.metromelttraining.com/",
     "demo": "https://www.metromelttraining.com/"
   },
   {
-    "id": 19,
-    "name": "Sarcastic Geeks Trybe",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "The Community is aimed at connecting even the lowest echelon of developers and techies in general, and creating a link with seniors and intermediates alike. Community extra mural activities like X Spaces and #100DaysOfCodeAndDesign have been pivoting this collaborative and creative insight, and now BEZ AI Course Builder.",
-    "tags": [
-      "react",
-      "firebase",
-      "css",
-      "web3",
-      "api",
-      "ai"
-    ],
-    "source_code": "https://sarcasticgeeks.com",
-    "demo": "https://sarcasticgeeks.com"
-  },
-  {
-    "id": 20,
+    "id": 18,
     "name": "Nodemailer + Zoho Mail",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "This project sets up a secure mailing system using Nodemailer with Zoho Mail SMTP, integrated into a Next.js API route. It is designed to handle both single test emails and bulk promotional campaigns securely.",
@@ -266,12 +253,44 @@
       "css",
       "smtp"
     ],
+    "category": "Web App",
     "source_code": "https://e-nodemailer.netlify.app",
     "demo": "https://e-nodemailer.netlify.app"
   },
-  {
+    {
+    "id": 19,
+    "name": "The Trybe Games",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "This is a dynamic collection of lightweight, Firebase-powered web games built for fast fun and real user interaction. Whether you're a competitive player, a casual gamer, or just here to test your reflexes, there's something here for everyone.",
+    "tags": [
+      "react",
+      "firebase",
+      "css",
+      "html",
+      "javascript"
+    ],
+    "category": "Web App",
+    "source_code": "https://sarcasticgeeks.com/play",
+    "demo": "https://sarcasticgeeks.com/play"
+  },
+    {
+    "id": 20,
+    "name": "FinTech Banking System",
+    "image": "https://imgur.com/8FFqaX8.png",
+    "description": "This project is a web-based fintech banking platform that provides users with a complete range of modern financial services, including savings and secure transfers, investments in both stocks and cryptocurrencies, loans with flexible repayment options, virtual and physical cards for everyday use, and a trusted escrow service for safe peer-to-peer and business transactions; it replicates and enhances the full process of banking, enabling users to save, invest, borrow, spend, and transact securely all in one place.",
+    "tags": [
+      "react",
+      "firebase",
+      "css",
+      "bootstrap"
+    ],
+    "category": "Web App",
+    "source_code": "https://github.com/Gozkybrain/myBank-FinTech",
+    "demo": "https://github.com/Gozkybrain/myBank-FinTech"
+  },
+    {
     "id": 21,
-    "name": "Advertorial Hub",
+    "name": "Betting",
     "image": "https://imgur.com/8FFqaX8.png",
     "description": "This project sets up a secure mailing system using Nodemailer with Zoho Mail SMTP, integrated into a Next.js API route. It is designed to handle both single test emails and bulk promotional campaigns securely.",
     "tags": [
@@ -280,6 +299,7 @@
       "css",
       "smtp"
     ],
+    "category": "Web App",
     "source_code": "https://e-nodemailer.netlify.app",
     "demo": "https://e-nodemailer.netlify.app"
   },
@@ -294,6 +314,7 @@
       "css",
       "smtp"
     ],
+    "category": "Web App",
     "source_code": "https://e-nodemailer.netlify.app",
     "demo": "https://e-nodemailer.netlify.app"
   },
@@ -308,6 +329,7 @@
       "css",
       "smtp"
     ],
+    "category": "Web App",
     "source_code": "https://e-nodemailer.netlify.app",
     "demo": "https://e-nodemailer.netlify.app"
   },
@@ -322,22 +344,26 @@
       "css",
       "smtp"
     ],
+    "category": "Web App",
     "source_code": "https://e-nodemailer.netlify.app",
     "demo": "https://e-nodemailer.netlify.app"
   },
-  {
+    {
     "id": 25,
-    "name": "Betting",
+    "name": "Sarcastic Geeks Trybe",
     "image": "https://imgur.com/8FFqaX8.png",
-    "description": "This project sets up a secure mailing system using Nodemailer with Zoho Mail SMTP, integrated into a Next.js API route. It is designed to handle both single test emails and bulk promotional campaigns securely.",
+    "description": "The Community is aimed at connecting even the lowest echelon of developers and techies in general, and creating a link with seniors and intermediates alike. Community extra mural activities like X Spaces and #100DaysOfCodeAndDesign have been pivoting this collaborative and creative insight, and now BEZ AI Course Builder.",
     "tags": [
       "react",
-      "nextjs",
+      "firebase",
       "css",
-      "smtp"
+      "web3",
+      "api",
+      "ai"
     ],
-    "source_code": "https://e-nodemailer.netlify.app",
-    "demo": "https://e-nodemailer.netlify.app"
+    "category": "Web App",
+    "source_code": "https://sarcasticgeeks.com",
+    "demo": "https://sarcasticgeeks.com"
   },
   {
     "id": 26,
@@ -350,22 +376,24 @@
       "css",
       "smtp"
     ],
+    "category": "Web App",
     "source_code": "https://e-nodemailer.netlify.app",
     "demo": "https://e-nodemailer.netlify.app"
   },
-  {
+
+    {
     "id": 27,
-    "name": "The Trybe Games",
+    "name": "Advertorial Hub",
     "image": "https://imgur.com/8FFqaX8.png",
-    "description": "This is a dynamic collection of lightweight, Firebase-powered web games built for fast fun and real user interaction. Whether you're a competitive player, a casual gamer, or just here to test your reflexes, there's something here for everyone.",
+    "description": "This project sets up a secure mailing system using Nodemailer with Zoho Mail SMTP, integrated into a Next.js API route. It is designed to handle both single test emails and bulk promotional campaigns securely.",
     "tags": [
       "react",
-      "firebase",
+      "nextjs",
       "css",
-      "html",
-      "javascript"
+      "smtp"
     ],
-    "source_code": "https://sarcasticgeeks.com/play",
-    "demo": "https://sarcasticgeeks.com/play"
+    "category": "Web App",
+    "source_code": "https://e-nodemailer.netlify.app",
+    "demo": "https://e-nodemailer.netlify.app"
   }
 ]

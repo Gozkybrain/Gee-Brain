@@ -20,16 +20,19 @@ const ProjectCard = ({ project }) => {
   return (
     <div className={styles.card}>
       <div className={styles.content}>
-        <h3>
-          <a
-            href={project.demo} 
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            {project.name}
-          </a>
-        </h3>
+        <div className={styles.cardHeader}>
+          <h3>
+            <a
+              href={project.demo} 
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.underline}
+            >
+              {project.name}
+            </a>
+          </h3>
+          <span className={styles.category}>{project.category}</span>
+        </div>
         <p>{project.description}</p>
         <div className={styles.tags}>
           {project.tags.map((tag) => (
