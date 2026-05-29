@@ -13,7 +13,10 @@ const ProjectCard = ({ project }) => {
     if (t.includes('api') || t.includes('smtp') || t.includes('postman')) return styles.apiTag;
     if (t.includes('firebase')) return styles.firebaseTag;
     if (t.includes('express')) return styles.expressTag;
-    if (t.includes('ai') || t.includes('prompt')) return styles.aiTag;
+    if (t.includes('mongodb')) return styles.mongodbTag;
+    if (t.includes('openrouter')) return styles.openrouterTag;
+    if (t.includes('css')) return styles.cssTag;
+    if (t.includes('html')) return styles.htmlTag;
     return styles.defaultTag;
   };
 

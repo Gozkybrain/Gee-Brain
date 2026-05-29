@@ -16,7 +16,9 @@
   padding: 1rem;
   text-decoration: none;
   color: inherit;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .card:hover {
@@ -77,6 +79,8 @@
   border-color: rgb(97, 218, 251);
   color: rgb(97, 218, 251);
 }
+
+.cssTag,
 .nodeTag {
   border-color: rgb(131, 205, 41);
   color: rgb(131, 205, 41);
@@ -87,7 +91,8 @@
   color: rgb(67, 153, 52);
 }
 .web3Tag,
-.bootstrapTag {
+.bootstrapTag,
+.htmlTag {
   border-color: rgb(118, 74, 188);
   color: rgb(118, 74, 188);
 }
@@ -95,7 +100,8 @@
   border-color: rgb(82, 143, 240);
   color: rgb(82, 143, 240);
 }
-.firebaseTag {
+
+.mongodbTag {
   border-color: rgb(25, 118, 210);
   color: rgb(25, 118, 210);
 }
@@ -103,7 +109,8 @@
   border-color: rgb(0, 209, 178);
   color: rgb(0, 209, 178);
 }
-.aiTag {
+.openrouterTag,
+.firebaseTag {
   border-color: orange;
   color: orange;
 }
