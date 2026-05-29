@@ -12,10 +12,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  cursor: pointer;
   padding: 1rem;
-  text-decoration: none;
-  color: inherit;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
