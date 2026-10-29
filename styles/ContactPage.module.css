@@ -75,7 +75,7 @@
 /* Grid for Education & Work */
 .grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
 }
 
@@ -87,10 +87,7 @@
   height: 100%;
 }
 
-.section:hover {
-  border-color: rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.04);
-}
+
 
 .heading {
   font-size: 1.2rem;
@@ -105,13 +102,11 @@
 /* Resume Items */
 .item {
   margin-bottom: 1.5rem;
-  padding-left: 1rem;
-  border-left: 3px solid #3c3c3c;
+  padding-bottom: 1.5rem;
+  border-bottom: 3px solid #3c3c3c;
 }
 
-.item:hover {
-  border-left-color: #569cd6;
-}
+
 
 .title {
   color: #fff;
@@ -131,6 +126,14 @@
   font-size: 0.9rem;
   color: var(--accent-color);
   font-weight: 500;
+}
+
+.metaRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  text-align: right;
 }
 
 /* Skill Entry Styles to match About Tags */

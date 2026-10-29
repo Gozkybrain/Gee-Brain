@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <div className={styles.about}>
       <div className={styles.container}>
-        <h3 className={styles.textHead}>Software Developer +</h3>
+        <h3 className={styles.textHead}>Software Business Developer</h3>
         <div className={styles.grid}>
           <div className={styles.imageContainer} data-aos="fade-right">
             <Image
@@ -60,7 +60,7 @@ export default function AboutMe() {
           </div>
         </div>
         <div className={styles.paragraph}>
-          Innovative and deadline-driven Developer with 5+ years of experience
+          Innovative and deadline-driven Developer with over a decade of experience
           researching and developing solutions that meet client satisfaction
           using the easiest, yet effective approach possible. I make the whole
           concept of developing a whole vibe — A Normal Life is Boring. I’m also
@@ -137,6 +137,9 @@ export default function AboutMe() {
                 </li>
                 <li className={`${styles.skillTag} ${styles.aiTag}`}>
                   AI Integration
+                </li>
+                <li className={`${styles.skillTag} ${styles.aiTag}`}>
+                  AI Agentic
                 </li>
                 <li className={`${styles.skillTag} ${styles.web3Tag}`}>
                   Motoko (ICP)
