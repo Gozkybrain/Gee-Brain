@@ -19,12 +19,11 @@
 
 .skillsContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  padding: 10px;
-  max-width: 600px;
-  margin: auto;
+  padding: 0;
+  margin: 0;
   flex-wrap: wrap;
 }
 
@@ -38,31 +37,30 @@
 
 .skillItem {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  padding: 15px;
-  width: 85px;
-  height: 110px;
+  gap: 8px;
+  border: 1px solid #2d2d2d;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  padding: 6px 12px;
+  width: auto;
+  height: auto;
   transition: all 0.3s ease-in-out;
 }
 
 .icon {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.skillItem:hover {
-  transform: scale(1.1);
+  font-size: 1.4rem;
+  width: auto;
+  height: 1em;
+  fill: currentColor;
 }
 
 .skillText {
-  margin-top: 8px;
-  font-size: 16px;
-  font-weight: bold;
-  text-align: center;
   color: #dedede;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .reactIcon {
@@ -111,6 +109,30 @@
 
 .firebase-icon {
   color: #ffca28;
+}
+
+.githubIcon {
+  color: #f0f6fc;
+}
+
+.openrouterIcon {
+  color: #94a3b8;
+}
+
+.expoIcon {
+  color: #dcdde1;
+}
+
+.postmanIcon {
+  color: #ff6c37;
+}
+
+.ollamaIcon {
+  color: #ffffff;
+}
+
+.nextjsIcon {
+  color: #ffffff;
 }
 
 .home-background-text {
@@ -257,17 +279,17 @@
   }
 
   .icon {
-    font-size: 2rem;
+    font-size: 1.15rem;
   }
 
   .skillText {
-    display: none;
+    font-size: 12px;
   }
 
   .skillItem {
-    padding: 0px;
-    width: 30px;
-    height: 40px;
+    gap: 6px;
+    padding: 4px 8px;
+    border-radius: 6px;
     transition: all 0.3s ease-in-out;
   }
 

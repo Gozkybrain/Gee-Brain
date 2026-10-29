@@ -17,23 +17,22 @@
   transform: translateY(-20%);
   pointer-events: none;
   user-select: none;
+  z-index: 0;
 }
 
 .foreground {
+  position: relative;
   z-index: 2;
-  display: flex;
+  display: block;
+  width: 100%;
   color: var(--accent-color);
-  justify-content: space-between;
-  align-items: center;
 }
 
 .name {
   color: #eee;
   font-size: 4rem;
-  font-weight: 500;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
+  font-weight: 600;
+  font-family: "Thunder", sans-serif;
   text-shadow: 4px 4px 6px #000;
   margin-bottom: 0.5rem;
   text-align: left;
@@ -42,21 +41,30 @@
 .bio {
   width: max-content;
   color: #eee;
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 1.9;
   font-weight: 300;
+  font-family: "Thunder", sans-serif;
+  text-shadow: 3px 3px 5px #000;
   margin-bottom: 3rem;
   position: relative;
+  text-align: left;
 }
 
 .react {
-  color: #0088cc;
+  display: block;
+  position: relative;
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--accent-color);
   /* -webkit-text-stroke: 1px #2d2d2d; */
   text-shadow: 2px 2px 4px #000;
 }
 
-.bio::before,
-.bio::after {
+.react::before,
+.react::after {
   content: "";
   position: absolute;
   top: 0;
@@ -65,12 +73,12 @@
   left: 0;
 }
 
-.bio::before {
+.react::before {
   background: var(--main-bg);
   animation: typewriter 2.5s steps(24) 500ms forwards;
 }
 
-.bio::after {
+.react::after {
   margin-left: 0.4rem;
   width: 0.125em;
   background: var(--accent-color);
@@ -137,7 +145,7 @@
   }
   .bio {
     font-size: 1.75rem;
-    margin: 0.75rem auto 3rem;
+    margin: 0.75rem 0 3rem;
   }
   .illustration {
     position: absolute;
@@ -164,7 +172,7 @@
     margin: 0;
   }
 
-  .bio::after {
+  .react::after {
     margin-left: 0.4rem;
     width: 0.125em;
     background: none;
@@ -179,6 +187,9 @@
     font-size: 1.25rem;
     margin-bottom: 2rem;
     text-align: left;
+  }
+  .react {
+    font-size: 1rem;
   }
   .button {
     font-size: 1rem;
