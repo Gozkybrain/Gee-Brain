@@ -5,6 +5,14 @@
   gap: 1.5rem;
 }
 
+.cardTitle {
+  margin: 0;
+  padding: 0.2rem 0;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
 .searchBox {
   display: flex;
   justify-content: flex-end;
@@ -40,10 +48,122 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+/* Overlay behind the drawer */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 90;
+  animation: overlayIn 0.2s ease;
+}
+
+@keyframes overlayIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Drawer (hamburger-style panel) */
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(380px, 88vw);
+  background: var(--main-bg);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: -8px 0 30px rgba(0, 0, 0, 0.45);
+  padding: 24px;
+  overflow-y: auto;
+  z-index: 91;
+  animation: drawerIn 0.28s ease;
+}
+
+@keyframes drawerIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.drawerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.drawerClose {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  color: #ccc;
+  font-size: 0.95rem;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.drawerClose:hover {
+  color: #fff;
+  border-color: var(--accent-color);
+}
+
+.drawerTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.drawerDesc {
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: #cfcfcf;
+  margin-bottom: 22px;
+}
+
+.drawerLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 9px 18px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btnPrimary {
+  background: var(--accent-color);
+  color: #10131a;
+}
+
+.btnSecondary {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #eee;
+  background: transparent;
+}
+
+.btnSecondary:hover {
+  border-color: var(--accent-color);
+}
+
 /* On mobile screens (below 600px), show only 1 card per row */
 @media (max-width: 600px) {
   .container {
     grid-template-columns: 1fr; /* 1 full-width card per row */
   }
 }
-
